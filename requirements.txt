@@ -1,0 +1,16 @@
+# Python 3.12, 3.13 ou 3.14 (testado em Linux 3.13; pacotes confirmados para Windows 3.14)
+scikit-learn==1.7.2
+nltk==3.9.1
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+# Extração de informação
+spacy==3.8.18
+thinc==8.3.14
+openpyxl==3.1.5
+# custo computacional (src/cost.py): RAM total da máquina
+psutil==7.2.2
+pt_core_news_md @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_md-3.8.0/pt_core_news_md-3.8.0-py3-none-any.whl
+# opcionais, só para a comparação de modelos (python src/ie_extract.py --models-compare):
+#   pt_core_news_sm (16 MB) e pt_core_news_lg (631 MB), mesmo URL com _sm/_lg

@@ -1,0 +1,13 @@
+\begin{table}[t]\centering\small
+\caption{Ablation do pré-processamento: TF-IDF + SVM linear no texto normalizado (F1-macro, CV 5 folds no dev).}\label{tab:ablation}
+\begin{tabular}{lcc}
+\toprule
+Pré-processamento & 1-gramas & 1--2-gramas \\
+\midrule
+sem normalização & 0,933 $\pm$ 0,005 & 0,944 $\pm$ 0,005 \\
+minúsculas & 0,930 $\pm$ 0,003 & 0,943 $\pm$ 0,005 \\
++ sem stopwords & 0,923 $\pm$ 0,004 & 0,931 $\pm$ 0,006 \\
++ stemming RSLP & 0,915 $\pm$ 0,005 & 0,928 $\pm$ 0,009 \\
+\bottomrule
+\end{tabular}
+\end{table}

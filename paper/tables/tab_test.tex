@@ -1,0 +1,29 @@
+\begin{table}[t]\centering\scriptsize
+\caption{Resultados no conjunto de teste (1\,444 docs, usado uma única vez). Matriz de confusão como VN/FP/FN/VP (positivo = falsa).}\label{tab:test}
+\begin{tabular}{lccccc}
+\toprule
+Configuração & F1-macro & IC95\% & F1$_V$ & F1$_F$ & VN/FP/FN/VP \\
+\midrule
+classe maioritária & 0,333 & [0,322; 0,344] & 0,667 & 0,000 & 722/0/722/0 \\
+só comprimento & 0,938 & [0,926; 0,951] & 0,939 & 0,938 & 683/39/50/672 \\
+estilo (20 atributos) & 0,961 & [0,951; 0,970] & 0,961 & 0,960 & 697/25/32/690 \\
+estilo, só proporções (6) & 0,913 & [0,899; 0,927] & 0,913 & 0,913 & 660/62/63/659 \\
+palavras + LogReg (completo) & 0,965 & [0,956; 0,974] & 0,965 & 0,965 & 695/27/23/699 \\
+palavras + SVM (completo) & 0,973 & [0,965; 0,981] & 0,973 & 0,973 & 702/20/19/703 \\
+palavras + LogReg (normalizado) & 0,927 & [0,914; 0,940] & 0,927 & 0,928 & 663/59/46/676 \\
+palavras + SVM (normalizado) & 0,935 & [0,922; 0,947] & 0,935 & 0,935 & 672/50/44/678 \\
+caracteres + SVM (normalizado) & 0,953 & [0,941; 0,963] & 0,953 & 0,952 & 695/27/41/681 \\
+como acaba o texto (normalizado) & 0,892 & [0,876; 0,907] & 0,888 & 0,896 & 619/103/53/669 \\
+como acaba o texto (cortado) & 0,404 & [0,383; 0,426] & 0,151 & 0,657 & 63/659/47/675 \\
+palavras + SVM (cortado) & 0,907 & [0,892; 0,922] & 0,906 & 0,907 & 651/71/64/658 \\
+caracteres + SVM (cortado) & 0,937 & [0,925; 0,949] & 0,937 & 0,937 & 677/45/46/676 \\
+BERTimbau congelado (normalizado) & 0,966 & [0,956; 0,974] & 0,966 & 0,966 & 703/19/30/692 \\
+BERTimbau congelado (completo, 512 tok.) & 0,972 & [0,962; 0,980] & 0,972 & 0,971 & 709/13/28/694 \\
+BERTimbau congelado (cortado) & 0,940 & [0,928; 0,952] & 0,941 & 0,940 & 684/38/48/674 \\
+palavras + SVM (cortado, afinado) & 0,913 & [0,899; 0,928] & 0,913 & 0,913 & 659/63/62/660 \\
+caracteres + SVM (cortado, afinado) & 0,939 & [0,927; 0,951] & 0,940 & 0,938 & 686/36/52/670 \\
+caracteres + LogReg (cortado, afinado) & 0,934 & [0,921; 0,946] & 0,934 & 0,934 & 673/49/46/676 \\
+BERTimbau fine-tuned (cortado) & 0,987 & [0,980; 0,992] & 0,987 & 0,987 & 713/9/10/712 \\
+\bottomrule
+\end{tabular}
+\end{table}

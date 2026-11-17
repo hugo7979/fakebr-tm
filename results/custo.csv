@@ -1,0 +1,8 @@
+modelo,hardware,treino_s,inferencia_ms_por_doc,memoria_pico_MB,tamanho_modelo_MB,n_atributos
+Só comprimento (baseline),CPU,0.028683500015176833,0.004058199992869049,0.325848,0.001114,1.0
+"TF-IDF palavras + SVM (cortado, afinado: pipeline=raw, min_df=2, C=1)",CPU,10.103555500041693,1.4457534999819472,110.151636,3.533742,73207.0
+"TF-IDF caracteres + SVM (cortado, afinado: n-gramas=(1, 4), min_df=3, C=0.3)",CPU,39.47704689996317,10.834912599995732,128.887929,1.464219,34952.0
+"TF-IDF caracteres + LogReg (cortado, afinado: n-gramas=(2, 5), min_df=3, C=10)",CPU,42.73619160003727,10.863411400001496,175.186271,3.003206,70575.0
+Extração de entidades (pt_core_news_md),CPU,,36.43924879998667,284.439542,54.140041,
+"BERTimbau fine-tuned (cortado), CV 5 folds",GPU Tesla T4,713.1853399276733,,3587.314176,436.0,110000000.0
+"BERTimbau fine-tuned (cortado), treino final + teste",GPU Tesla T4,167.43881511688232,,3579.974144,436.0,110000000.0

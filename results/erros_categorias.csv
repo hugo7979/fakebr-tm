@@ -1,0 +1,9 @@
+categoria,falso negativo,falso positivo,total,exemplos
+total,20,20,40,
+Falsa com estilo jornalístico,12,0,12,"E09, E10, E15"
+Verdadeira com tom de opinião ou citações,0,8,8,"E02, E06, E13"
+Tema típico da outra classe,0,7,7,"E03, E04, E08"
+Possível erro de rótulo no corpus,5,0,5,"E07, E12, E14"
+Pouco texto informativo no corte,3,1,4,"E01, E05, E26"
+Outro,0,3,3,"E17, E25, E33"
+Marcas da fonte,0,1,1,E18

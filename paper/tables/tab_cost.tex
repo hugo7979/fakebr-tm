@@ -1,0 +1,16 @@
+\begin{table}[t]\centering\scriptsize
+\caption{Custo computacional. Treino no dev completo (5\,756 notícias); inferência medida em 1\,000 notícias. Memória: pico de RAM do processo (GPU no caso do BERTimbau). CPU: Windows 11, 16 núcleos lógicos, 14,9 GB de RAM; GPU: Google Colab gratuito. Nenhum serviço externo pago nem modelo de linguagem foi usado no pipeline (0 tokens).}\label{tab:cost}
+\begin{tabular}{llrrrr}
+\toprule
+Modelo & Hardware & Treino (s) & ms/notícia & Memória (MB) & Tam. (MB) \\
+\midrule
+Só comprimento & CPU & 0,0 & 0,00 & 0 & 0,0 \\
+palavras + SVM & CPU & 10,1 & 1,45 & 110 & 3,5 \\
+caracteres + SVM & CPU & 39,5 & 10,83 & 129 & 1,5 \\
+caracteres + LogReg & CPU & 42,7 & 10,86 & 175 & 3,0 \\
+spaCy (md) & CPU & -- & 36,44 & 284 & 54,1 \\
+BERTimbau afinado: CV 5 folds & GPU T4 & 713,2 & -- & 3587 & 436,0 \\
+BERTimbau afinado: final + teste & GPU T4 & 167,4 & -- & 3580 & 436,0 \\
+\bottomrule
+\end{tabular}
+\end{table}

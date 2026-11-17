@@ -1,0 +1,46 @@
+% Responsável: P1 + P2. Enunciado: >= 8 referências, COMENTADAS CRITICAMENTE (não só enumeradas).
+% Factos verificados nos resumos/textos dos artigos em 17/11/2026 (Potthast, Pérez-Rosas, Horne & Adalı,
+% Santos et al.). Ler os artigos completos antes da apresentação.
+\section{Trabalho relacionado}\label{sec:rel}
+
+\paragraph{Panoramas.}
+Shu et~al.~\cite{shu2017} e Zhou e Zafarani~\cite{zhou2020} organizam a deteção de notícias falsas
+em abordagens baseadas no conteúdo (conhecimento e estilo), na propagação e na fonte. O nosso
+trabalho situa-se na deteção pelo \emph{estilo} do conteúdo, a única possível quando, como no
+cenário da organização, só se dispõe do texto. A nossa análise de erros confirma a fragilidade que
+estes panoramas apontam a esta família de métodos: basta imitar a escrita jornalística para enganar
+o detetor.
+
+\paragraph{Estilo e notícias falsas.}
+Horne e Adal{\i}~\cite{horne2017} concluíram que, em inglês, as notícias falsas se parecem mais com
+a sátira do que com notícias reais, que a estrutura do título e o uso de nomes próprios as distinguem
+e que persuadem por heurísticas, dirigindo-se a leitores que não passam do título. Potthast
+et~al.~\cite{potthast2018} mostraram que o estilo separa bem notícias hiperpartidárias das restantes
+(F1 de 0,78) e a sátira de ambas (0,81), mas que a deteção de notícias falsas apenas pelo estilo
+falha (F1 de 0,46). A diferença face aos valores próximos de 0,95 no Fake.Br é instrutiva: quando as
+notícias falsas vêm de poucos sítios, o estilo da fonte confunde-se com a falsidade. Pérez-Rosas
+et~al.~\cite{perezrosas2018} construíram dois conjuntos em inglês (FakeNewsAMT e Celebrity) e
+combinaram atributos lexicais, sintáticos e de legibilidade; ao treinar num domínio e testar no
+outro, a exatidão desceu de 0,67--0,78 para 0,51--0,61. No nosso protocolo por tema a queda é muito
+menor (até 5,5 pontos), possivelmente porque as fontes são as mesmas em todos os temas.
+
+\paragraph{Notícias falsas em português.}
+Monteiro et~al.~\cite{monteiro2018} criaram o Fake.Br: 3\,600 notícias falsas e 3\,600 verdadeiras,
+alinhadas por assunto e recolhidas entre janeiro de 2016 e janeiro de 2018, com 89\% de exatidão
+usando SVM sobre \emph{bag-of-words}; atributos como a pausalidade e a emotividade, sozinhos, ficaram
+perto de 55\%~\cite{santos2020}. Silva et~al.~\cite{silva2020} disponibilizaram o conjunto
+publicamente e compararam vários métodos de aprendizagem automática, conjuntos de atributos e
+classificadores. Santos et~al.~\cite{santos2020} mostraram que atributos de legibilidade, sozinhos,
+chegam a 92\% de exatidão, com SVM e validação cruzada de 5 folds. Estes trabalhos estabeleceram o
+corpus e as referências de desempenho, mas não indicam se as duas notícias de cada par ficam no mesmo
+fold, nem quanto do desempenho se explica pelo comprimento ou pela forma como os textos acabam. São
+estas as questões que o nosso protocolo controla: dividimos por par, medimos as \emph{baselines} de
+comprimento e de final do texto e testamos temas não vistos.
+
+\paragraph{Representações e avaliação.}
+Usamos TF-IDF~\cite{manning2008} e o BERTimbau~\cite{souza2020}, uma variante do BERT~\cite{devlin2019}
+pré-treinada em português do Brasil. Para os tópicos usamos LDA~\cite{blei2003}, avaliado com a
+coerência NPMI, que Röder et~al.~\cite{roder2015} identificaram como uma das medidas mais
+correlacionadas com o julgamento humano. Kapoor e Narayanan~\cite{kapoor2023} documentam como a
+fuga de informação entre treino e teste inflaciona resultados em muitas áreas; no Fake.Br, o
+emparelhamento das notícias torna esse risco concreto.

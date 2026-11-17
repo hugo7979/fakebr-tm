@@ -1,0 +1,60 @@
+% ============================================================================
+%  Artigo — Text Mining, Opção 2: Deteção de Notícias Falsas (Fake.Br)
+%  Modelo oficial Springer LNCS (llncs.cls + splncs04.bst). NÃO alterar margens,
+%  tipos de letra nem espaçamentos (regra do enunciado).
+%  Limite: 25 páginas SEM contar referências e anexos.
+%  Compilar:  latexmk -pdf main.tex     (ou no Overleaf: carregar a pasta paper/)
+%  As tabelas em tables/ são GERADAS por src/make_tables.py — não editar à mão.
+% ============================================================================
+\documentclass[runningheads]{llncs}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue}
+
+% Marcador de trabalho por fazer. Para a versão final: trocar por \newcommand{\todo}[1]{}
+% e confirmar que não sobra nenhum (procurar "TODO" no PDF).
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
+\newcommand{\repo}{\url{https://github.com/GRUPO/fakebr-tm}} % TODO: endereço real do repositório
+
+\begin{document}
+\renewcommand{\andname}{e}\renewcommand{\lastandname}{\unskip\ e}
+
+\title{Estilo, não tema: deteção de notícias falsas em português e os atalhos do corpus Fake.Br}
+\titlerunning{Estilo, não tema: deteção de notícias falsas em português}
+
+\author{Diogo Filipe Oliveira Gomes (PG63946) \and Sérgio Paulo Vieira Carvalho (PG63711) \and
+        Hugo Novais Martins (PG64175) \and Diogo Valério Borges (PG64174) \and
+        Tiago Alexandre Lopes Mendes (PG64031)}
+\authorrunning{D. Gomes, S. Carvalho, H. Martins, D. Borges e T. Mendes}
+\institute{Departamento de Informática, Universidade do Minho, Braga, Portugal\\
+\email{\{pg63946,pg63711,pg64175,pg64174,pg64031\}@alunos.uminho.pt}}
+
+\maketitle
+
+\input{sections/00_abstract}
+\input{sections/01_introducao}
+\input{sections/02_trabalho_relacionado}
+\input{sections/03_dados}
+\input{sections/04_metodologia}
+\input{sections/05_configuracao}
+\input{sections/06_resultados}
+\input{sections/07_discussao}
+\input{sections/08_etica}
+\input{sections/09_conclusoes}
+
+\bibliographystyle{splncs04}
+\bibliography{references}
+
+% ---------------- Anexos: depois das referências, fora do limite de páginas ----------------
+\appendix
+\input{sections/A_avaliacao_pares}
+\input{sections/B_declaracao_ia}
+
+\end{document}

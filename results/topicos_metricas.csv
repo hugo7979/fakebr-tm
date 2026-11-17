@@ -1,0 +1,6 @@
+medida,valor
+"NMI(tópico dominante, falsa/verdadeira)",0.04725273272395363
+"NMI(tópico dominante, tema do corpus)",0.10355752159161093
+"F1-macro LogReg sobre 15 tópicos (CV 5 folds, média)",0.7466769761990527
+  desvio-padrão entre folds,0.017569338565736628
+  IC95% bootstrap (out-of-fold),"[0.736, 0.758]"

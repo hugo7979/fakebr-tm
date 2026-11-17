@@ -1,0 +1,16 @@
+topico,palavras,npmi,peso_medio_falsas,peso_medio_verdadeiras,docs_dominante,pct_falsas_entre_dominantes,tema_mais_comum,razao_F_V
+10,lula dilma disse país vai brasil ex-presidente petista presidente governo porque rousseff,0.09959783953752135,0.1657032407064532,0.0295931272971645,606,93.3993399339934,politica,5.5993825540138245
+14,anos disse vídeo redes sobre sociais família mãe vida casa diz facebook,0.09384553062959747,0.09949212245094897,0.05470795245618999,454,68.72246696035242,tv_celebridades,1.8186043890167896
+4,globo programa cantor carne apresentador anos show jornalista rede casa vai dia,0.06197940904668261,0.03290541825679524,0.024319812944274058,103,60.19417475728155,tv_celebridades,1.3530292495338705
+1,brasil sobre mundo anos país política brasileiro todos brasileiros história diz brasileira,0.11848680762191639,0.08929351270346453,0.06744834418663094,456,52.19298245614035,politica,1.3238799822333305
+11,milhões odebrecht dinheiro delação empresa acordo cunha dilma mil campanha eduardo propina,0.14470769928767574,0.07915864667635235,0.06919422752830821,443,59.59367945823928,politica,1.1440065089818015
+9,norte coreia eua trump kim disse presidente guerra nuclear estados país unidos,0.3986059598576392,0.0743784468491215,0.07303321112126993,432,47.91666666666667,sociedade_cotidiano,1.0184195067859996
+12,polícia segurança pessoas rio policiais estado local contra militar durante grupo disse,0.1174914313289725,0.05310827568838661,0.05758299208670068,294,47.27891156462585,politica,0.9222910057960056
+5,bolsonaro partido deputado candidato psdb prefeito paulo eleições presidência lula jair candidatura,0.2135964124970875,0.03271319609507662,0.03942288147634563,161,44.72049689440994,politica,0.8298022587391303
+7,federal ministério ministro rio presos governo justiça polícia estado ex-governador pública segurança,0.11037802631325035,0.027383218828950673,0.034201772339295174,113,41.5929203539823,politica,0.8006374218651087
+3,ministro temer aécio stf senador presidente janot renan lava jato gilmar mendes,0.22823974552976456,0.04812228074918332,0.06178121049903532,312,42.94871794871795,politica,0.7789145010348206
+2,lula ex-presidente moro federal jato lava juiz operação sérgio silva luiz inácio,0.3858936502350394,0.07628253250414632,0.09994898383786413,536,43.47014925373134,politica,0.763214687884079
+13,presidente temer governo câmara michel deputados deputado senado impeachment disse congresso nesta,0.20925131136649466,0.08426903566460958,0.11905521849560495,682,37.976539589442815,politica,0.7078147159733318
+0,anos após dia hospital ano rio paulo acidente nesta avião cidade morte,0.062218855896005607,0.04329173137879635,0.0721158691676354,327,33.94495412844037,tv_celebridades,0.6003079749085943
+6,ano brasil anos país mil maior pessoas saúde casos pode segundo dia,0.09711528727838672,0.047373796965994336,0.09888616715415668,419,29.355608591885442,politica,0.4790740538273859
+8,federal tribunal stf decisão justiça supremo prisão caso julgamento defesa contra pedido,0.2475788513090181,0.046524544481720415,0.09870822940952444,418,26.555023923444978,politica,0.4713339987965707

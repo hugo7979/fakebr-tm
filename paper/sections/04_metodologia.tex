@@ -1,0 +1,58 @@
+% Responsável: P2 (pré-processamento, clássicos) + P3 (BERTimbau) + P4 (tópicos) + P5 (EI)
+\section{Metodologia}\label{sec:metodo}
+
+\paragraph{Pré-processamento.}
+Tokenizamos com uma expressão regular que mantém letras acentuadas e palavras hifenizadas
+(``lava-jato'', ``quarta-feira'') e substitui ligações por um símbolo único. Os passos seguintes
+são opcionais, para os podermos avaliar: minúsculas, remoção de \emph{stopwords} (lista do NLTK)
+e \emph{stemming} RSLP~\cite{orengo2001}. A Tabela~\ref{tab:vocab} mostra o efeito no vocabulário:
+as minúsculas reduzem-no 15\% e o RSLP 59\%; as \emph{stopwords} quase não alteram o vocabulário,
+mas eliminam 42\% dos \emph{tokens}. A escolha final é feita pela \emph{ablation}
+(Secção~\ref{sec:resultados}), não por convenção.
+
+\input{tables/tab_vocab}
+
+\paragraph{Representações.}
+(i)~\emph{Comprimento}: o logaritmo do número de palavras, como \emph{baseline} informativa.
+(ii)~\emph{Estilo}: os 20 atributos fornecidos com o corpus, e um subconjunto de 6 proporções que
+não dependem diretamente do comprimento (pausalidade, comprimento médio de frase e de palavra,
+erros ortográficos, emotividade e diversidade). (iii)~\emph{TF-IDF de palavras} (uni e bigramas,
+TF sublinear, $\mathit{min\_df}=2$). (iv)~\emph{TF-IDF de caracteres} (2 a 5, dentro das palavras),
+que capta grafia, morfologia e pontuação. (v)~\emph{BERTimbau}~\cite{souza2020}: média dos vetores
+da última camada com o modelo congelado, e \emph{fine-tuning} completo.
+O \emph{fine-tuning} usa 3 épocas, taxa de aprendizagem $2\times10^{-5}$ com aquecimento linear,
+lotes de 16 e até 384 \emph{tokens}, reiniciando o modelo em cada fold.
+Cada representação é avaliada sobre três versões do texto: completo, normalizado e cortado
+(Secção~\ref{sec:dados}).
+
+\paragraph{Classificadores.}
+Regressão logística e SVM linear (\texttt{scikit-learn}~\cite{pedregosa2011}); a \emph{baseline}
+mínima é a classe maioritária. Escolhemos modelos lineares por serem rápidos, robustos em espaços
+esparsos e interpretáveis (pesos por atributo). Pusemos de lado, à partida e sem as testar,
+as árvores de decisão e as florestas aleatórias, que lidam mal com dezenas de milhares de atributos
+esparsos e são mais lentas, e o Naive Bayes multinomial, cuja hipótese de independência entre
+atributos é pouco realista com n-gramas de caracteres sobrepostos.
+
+\paragraph{Palavras distintivas.}
+Para descrever o vocabulário de cada classe usamos o \emph{log-odds} com prior de Dirichlet
+informativo~\cite{monroe2008}, que, ao contrário da frequência relativa, não sobrevaloriza
+palavras raras.
+
+\paragraph{Modelação de tópicos.}
+Aplicamos LDA~\cite{blei2003} a contagens de palavras do texto normalizado, sem \emph{stopwords} nem
+números (aqui interessa o conteúdo, não o estilo). Escolhemos o número de tópicos $K$ pela coerência
+NPMI média dos 10 termos mais prováveis~\cite{roder2015}, com três sementes por $K$.
+
+\paragraph{Extração de informação.}
+Pessoas, organizações e locais são extraídos com o modelo \texttt{pt\_core\_news\_md} do spaCy
+(as etiquetas \texttt{MISC} são ignoradas); as datas, que o modelo não etiqueta, são extraídas com
+expressões regulares (datas completas, dias da semana, meses e anos). Duas regras de
+pós-processamento alinham o extrator com o guia de anotação: nos padrões partido-estado
+(``PSDB-MG'') fica só o partido, e ``Janeiro'' em ``Rio de Janeiro'' não conta como mês. Medimos também expressões de
+atribuição de fontes (``segundo'', ``de acordo com'', ``disse'', ``afirmou''). A avaliação é feita
+ao nível do documento: o conjunto de entidades distintas previsto é comparado com o anotado, com
+correspondência estrita e relaxada (uma forma contém a outra, mesmo tipo).
+Comparámos os três modelos de português do spaCy (\texttt{sm}, 16\,MB; \texttt{md}, 54\,MB;
+\texttt{lg}, 631\,MB): processam todos cerca de 70 documentos por segundo em CPU, e o F1 global no
+ouro sobe de 0,645 (\texttt{sm}) para 0,681 (\texttt{md}) e 0,697 (\texttt{lg}). Usamos o
+\texttt{md} como compromisso entre qualidade e tamanho.

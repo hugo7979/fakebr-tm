@@ -1,0 +1,14 @@
+% Responsável: todos
+\section{Conclusões e trabalho futuro}\label{sec:conclusao}
+
+Mostrámos que, no Fake.Br, o desempenho elevado dos detetores de notícias falsas se deve em grande
+parte a um atalho, o comprimento, e que, removido esse atalho, os sinais que resistem são de estilo
+e de ancoragem factual, não de tema. As três tarefas (classificação, tópicos e extração de
+entidades) convergem nesta conclusão. No conjunto de teste, usado uma única vez, o BERTimbau afinado
+na versão sem atalhos obtém F1-macro de 0,987 [0,980; 0,992], contra 0,939 do melhor modelo
+clássico e 0,938 do comprimento, e as datas concretas, confirmadas por anotação manual, são o sinal
+mais simples e explicável para a triagem.
+
+Como trabalho futuro propomos: avaliar noutro corpus e período, sem o viés de fonte; comparar com
+um modelo de linguagem em modo \emph{zero-shot}, controlando a possível contaminação dos dados de
+treino com notícias de 2016--2018; e testar a robustez a falsas que imitem o estilo jornalístico.

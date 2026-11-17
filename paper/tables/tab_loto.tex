@@ -1,0 +1,12 @@
+\begin{table}[t]\centering\scriptsize
+\caption{Generalização para temas não vistos (\emph{leave-one-topic-out} no dev): treino sem o tema da coluna e teste nesse tema. F1-macro e IC95\%. Documentos de teste: política 3402, TV/celebr. 1188, sociedade 1008, outros 158.}\label{tab:loto}
+\begin{tabular}{lcccc}
+\toprule
+Modelo & política & TV/celebr. & sociedade & outros \\
+\midrule
+Estilo (6 proporções) & 0,920 {\tiny[0,91; 0,93]} & 0,936 {\tiny[0,92; 0,95]} & 0,936 {\tiny[0,92; 0,95]} & 0,873 {\tiny[0,82; 0,92]} \\
+TF-IDF palavras + SVM & 0,888 {\tiny[0,88; 0,90]} & 0,939 {\tiny[0,93; 0,95]} & 0,912 {\tiny[0,89; 0,93]} & 0,860 {\tiny[0,80; 0,91]} \\
+TF-IDF caracteres + SVM & 0,911 {\tiny[0,90; 0,92]} & 0,958 {\tiny[0,95; 0,97]} & 0,945 {\tiny[0,93; 0,96]} & 0,911 {\tiny[0,86; 0,95]} \\
+\bottomrule
+\end{tabular}
+\end{table}

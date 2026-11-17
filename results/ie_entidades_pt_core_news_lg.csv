@@ -1,0 +1,2018 @@
+doc_id,tipo,entidade,origem
+fake_1002,DATA,sexta-feira,previsto
+fake_1002,LOCAL,são paulo,previsto
+fake_1002,LOCAL,sírio libanês,previsto
+fake_1002,LOCAL,sírio-libanês,previsto
+fake_1002,ORGANIZACAO,jornal da globo,previsto
+fake_1002,ORGANIZACAO,rede globo,previsto
+fake_1002,PESSOA,carlos tramontina,previsto
+fake_1002,PESSOA,waack,previsto
+fake_1002,PESSOA,willian,previsto
+fake_1002,PESSOA,willian waack,previsto
+fake_1192,LOCAL,brasília,previsto
+fake_1192,LOCAL,cuba,previsto
+fake_1192,LOCAL,distrito,previsto
+fake_1192,LOCAL,energia,previsto
+fake_1192,LOCAL,minas,previsto
+fake_1192,LOCAL,ministério da fazenda,previsto
+fake_1192,LOCAL,prédios da esplanada,previsto
+fake_1192,LOCAL,rússia,previsto
+fake_1192,ORGANIZACAO,cut,previsto
+fake_1192,ORGANIZACAO,friboi,previsto
+fake_1192,ORGANIZACAO,pm,previsto
+fake_1192,ORGANIZACAO,pt,previsto
+fake_1192,PESSOA,deus,previsto
+fake_1192,PESSOA,joesley batista,previsto
+fake_1202,LOCAL,minas gerais,previsto
+fake_1202,ORGANIZACAO,odebrecht,previsto
+fake_1202,ORGANIZACAO,pf,previsto
+fake_1202,ORGANIZACAO,pgr,previsto
+fake_1202,PESSOA,andréa neves,previsto
+fake_1202,PESSOA,aécio,previsto
+fake_1202,PESSOA,aécio neves,previsto
+fake_1202,PESSOA,reinaldo,previsto
+fake_1202,PESSOA,reinaldo azevedo,previsto
+fake_1202,PESSOA,rodrigo janot,previsto
+fake_1228,LOCAL,marcola,previsto
+fake_1228,ORGANIZACAO,fernandinho beira-mar,previsto
+fake_1228,PESSOA,aécio,previsto
+fake_1228,PESSOA,aécio neves,previsto
+fake_1228,PESSOA,paulo henrique amorim,previsto
+fake_1400,LOCAL,brasil,previsto
+fake_1400,LOCAL,fagundes,previsto
+fake_1400,LOCAL,país,previsto
+fake_1400,ORGANIZACAO,legislativo,previsto
+fake_1400,ORGANIZACAO,partido dos trabalhadores,previsto
+fake_1400,ORGANIZACAO,pt,previsto
+fake_1400,PESSOA,antônio fagundes,previsto
+fake_1400,PESSOA,fagundes fagundes,previsto
+fake_1415,LOCAL,sp,previsto
+fake_1415,LOCAL,stf,previsto
+fake_1415,LOCAL,tatuí,previsto
+fake_1415,PESSOA,gilmar mendes,previsto
+fake_1415,PESSOA,mendes,previsto
+fake_1617,ORGANIZACAO,globo,previsto
+fake_1617,ORGANIZACAO,instituto lula,previsto
+fake_1617,ORGANIZACAO,médicos,previsto
+fake_1617,ORGANIZACAO,uti,previsto
+fake_1617,PESSOA,lula,previsto
+fake_1617,PESSOA,marisa,previsto
+fake_1617,PESSOA,roberto kalil filho,previsto
+fake_1619,DATA,1989,previsto
+fake_1619,DATA,1995,previsto
+fake_1619,DATA,1999,previsto
+fake_1619,DATA,2002,previsto
+fake_1619,DATA,julho de 1995,previsto
+fake_1619,DATA,outubro de 1995,previsto
+fake_1619,LOCAL,aeroporto internacional de brasília,previsto
+fake_1619,LOCAL,aeroporto santos dumont,previsto
+fake_1619,LOCAL,bandeirantes,previsto
+fake_1619,LOCAL,buritis,previsto
+fake_1619,LOCAL,córrego da ponte,previsto
+fake_1619,LOCAL,fazenda córrego da ponte,previsto
+fake_1619,LOCAL,fazenda pontezinha,previsto
+fake_1619,LOCAL,lear-jets,previsto
+fake_1619,LOCAL,mg,previsto
+fake_1619,LOCAL,palácio do planalto,previsto
+fake_1619,LOCAL,pista da pontezinha,previsto
+fake_1619,LOCAL,planalto,previsto
+fake_1619,LOCAL,república,previsto
+fake_1619,LOCAL,rio de janeiro,previsto
+fake_1619,LOCAL,senador,previsto
+fake_1619,ORGANIZACAO,agropecuária jauense,previsto
+fake_1619,ORGANIZACAO,anac,previsto
+fake_1619,ORGANIZACAO,dac,previsto
+fake_1619,ORGANIZACAO,departamento de aviação civil,previsto
+fake_1619,ORGANIZACAO,força aérea brasileira,previsto
+fake_1619,ORGANIZACAO,infraero,previsto
+fake_1619,PESSOA,beatriz cardoso,previsto
+fake_1619,PESSOA,camargo corrêa,previsto
+fake_1619,PESSOA,celito kock,previsto
+fake_1619,PESSOA,construções,previsto
+fake_1619,PESSOA,fernando henrique,previsto
+fake_1619,PESSOA,fhc,previsto
+fake_1619,PESSOA,getúlio vaz,previsto
+fake_1619,PESSOA,heráclito fortes,previsto
+fake_1619,PESSOA,jovelino carvalho mineiro filho,previsto
+fake_1619,PESSOA,jovelino mineiro,previsto
+fake_1619,PESSOA,luciana,previsto
+fake_1619,PESSOA,luciana cardoso,previsto
+fake_1619,PESSOA,luiz francisco souza,previsto
+fake_1619,PESSOA,paulo henrique cardoso,previsto
+fake_1619,PESSOA,sérgio motta,previsto
+fake_1619,PESSOA,ávidos,previsto
+fake_1706,LOCAL,mg,previsto
+fake_1706,LOCAL,região metropolitana de belo horizonte,previsto
+fake_1706,LOCAL,ribeirão das neves,previsto
+fake_1706,ORGANIZACAO,comissão de direitos humanos,previsto
+fake_1706,ORGANIZACAO,pm,previsto
+fake_1782,ORGANIZACAO,ps,previsto
+fake_1782,ORGANIZACAO,pt,previsto
+fake_1782,PESSOA,dilma,previsto
+fake_1782,PESSOA,lula,previsto
+fake_1852,DATA,08 de dezembro,previsto
+fake_1852,DATA,quinta-feira,previsto
+fake_1852,LOCAL,itapetininga,previsto
+fake_1852,LOCAL,sp,previsto
+fake_1852,LOCAL,uipa,previsto
+fake_1852,ORGANIZACAO,polícia civil,previsto
+fake_1852,ORGANIZACAO,união internacional protetora dos animais,previsto
+fake_1854,DATA,segunda,previsto
+fake_1854,LOCAL,brasil,previsto
+fake_1854,LOCAL,stf,previsto
+fake_1854,LOCAL,zap,previsto
+fake_1854,ORGANIZACAO,copas,previsto
+fake_1854,ORGANIZACAO,diário do brasil,previsto
+fake_1854,ORGANIZACAO,royal straight flush,previsto
+fake_1854,ORGANIZACAO,sete,previsto
+fake_1854,PESSOA,eduardo cunha,previsto
+fake_1854,PESSOA,jackson freitas,previsto
+fake_1854,PESSOA,nelson rodrigues,previsto
+fake_1854,PESSOA,renan,previsto
+fake_1874,DATA,22 de outubro,previsto
+fake_1874,DATA,março,previsto
+fake_1874,LOCAL,brasil,previsto
+fake_1874,LOCAL,congresso,previsto
+fake_1874,ORGANIZACAO,constituição federal,previsto
+fake_1874,ORGANIZACAO,diário do brasil,previsto
+fake_1874,ORGANIZACAO,pmdb,previsto
+fake_1874,ORGANIZACAO,psdb,previsto
+fake_1874,ORGANIZACAO,pt,previsto
+fake_1874,PESSOA,fernando henrique cardoso,previsto
+fake_1874,PESSOA,fhc,previsto
+fake_1874,PESSOA,lava-jato,previsto
+fake_1874,PESSOA,michel temer,previsto
+fake_1917,LOCAL,brasília,previsto
+fake_1917,LOCAL,câmara,previsto
+fake_1917,LOCAL,maia,previsto
+fake_1917,ORGANIZACAO,dem,previsto
+fake_1917,ORGANIZACAO,odebrecht,previsto
+fake_1917,ORGANIZACAO,pt,previsto
+fake_1917,PESSOA,deputados,previsto
+fake_1917,PESSOA,josias de souza,previsto
+fake_1917,PESSOA,michel temer,previsto
+fake_1917,PESSOA,rodrigo maia,previsto
+fake_1917,PESSOA,temer,previsto
+fake_1917,PESSOA,vicente cândido,previsto
+fake_1929,LOCAL,câmara dos deputados,previsto
+fake_1929,ORGANIZACAO,pp,previsto
+fake_1929,PESSOA,antagonista claúdio dantas,previsto
+fake_1929,PESSOA,corrêa,previsto
+fake_1929,PESSOA,josé roberto batochio,previsto
+fake_1929,PESSOA,josé roberto batochio batochio,previsto
+fake_1929,PESSOA,lula,previsto
+fake_1929,PESSOA,paulinho,previsto
+fake_1929,PESSOA,paulo roberto costa,previsto
+fake_1929,PESSOA,pedro corrêa,previsto
+fake_1929,PESSOA,presidente lula,previsto
+fake_1929,PESSOA,sérgio moro,previsto
+fake_2137,LOCAL,stf,previsto
+fake_2137,ORGANIZACAO,antagonista,previsto
+fake_2137,ORGANIZACAO,lava jato,previsto
+fake_2137,ORGANIZACAO,transpetro,previsto
+fake_2137,PESSOA,aníbal gomes,previsto
+fake_2137,PESSOA,lava-jato,previsto
+fake_2137,PESSOA,machado,previsto
+fake_2137,PESSOA,renan,previsto
+fake_2137,PESSOA,renan calheiros,previsto
+fake_2137,PESSOA,sérgio machado,previsto
+fake_2137,PESSOA,teori zavascki,previsto
+fake_2182,LOCAL,câmara,previsto
+fake_2182,LOCAL,federal,previsto
+fake_2182,LOCAL,rj,previsto
+fake_2182,LOCAL,timóteo,previsto
+fake_2182,ORGANIZACAO,câmara,previsto
+fake_2182,PESSOA,clarissa,previsto
+fake_2182,PESSOA,clarissa garotinho,previsto
+fake_2182,PESSOA,cunha,previsto
+fake_2182,PESSOA,deus,previsto
+fake_2182,PESSOA,eduardo cunha,previsto
+fake_2182,PESSOA,lúcio funaro,previsto
+fake_2219,ORGANIZACAO,mesa do senado,previsto
+fake_2219,ORGANIZACAO,pmdb,previsto
+fake_2219,ORGANIZACAO,pt,previsto
+fake_2219,PESSOA,cardozo,previsto
+fake_2219,PESSOA,dilma,previsto
+fake_2219,PESSOA,josias de souza,previsto
+fake_2219,PESSOA,josé eduardo cardozo,previsto
+fake_2219,PESSOA,joão costa,previsto
+fake_2219,PESSOA,joão costa ribeiro filho,previsto
+fake_2219,PESSOA,kátia,previsto
+fake_2219,PESSOA,kátia abreu,previsto
+fake_2219,PESSOA,lewandowski,previsto
+fake_2219,PESSOA,renan calheiros,previsto
+fake_2219,PESSOA,ribeiro filho,previsto
+fake_2219,PESSOA,vicentinho alves,previsto
+fake_2224,LOCAL,aeroporto afonso pena,previsto
+fake_2224,LOCAL,curitiba,previsto
+fake_2224,LOCAL,polícia federal,previsto
+fake_2224,ORGANIZACAO,pcdob,previsto
+fake_2224,ORGANIZACAO,pf,previsto
+fake_2224,PESSOA,militante,previsto
+fake_2224,PESSOA,vanessa,previsto
+fake_2224,PESSOA,vanessa graziotin,previsto
+fake_2229,DATA,segunda-feira,previsto
+fake_2229,LOCAL,casal bonito,previsto
+fake_2229,LOCAL,encontro,previsto
+fake_2229,ORGANIZACAO,rede globo,previsto
+fake_2229,PESSOA,fátima,previsto
+fake_2229,PESSOA,fátima bernardes,previsto
+fake_2229,PESSOA,instagram,previsto
+fake_2229,PESSOA,linda,previsto
+fake_2229,PESSOA,rafael,previsto
+fake_2229,PESSOA,rafael tupinambá,previsto
+fake_2229,PESSOA,tchau bonner,previsto
+fake_2229,PESSOA,william,previsto
+fake_2283,LOCAL,china,previsto
+fake_2283,LOCAL,stf,previsto
+fake_2283,ORGANIZACAO,pt,previsto
+fake_2283,PESSOA,dilma,previsto
+fake_2283,PESSOA,gleisi,previsto
+fake_2283,PESSOA,gleisi hoffmann,previsto
+fake_2283,PESSOA,lewandowski,previsto
+fake_2283,PESSOA,michel temer,previsto
+fake_2283,PESSOA,presidente dilma,previsto
+fake_2283,PESSOA,quem preside aqui sou eu,previsto
+fake_2283,PESSOA,renan calheiros,previsto
+fake_2283,PESSOA,sr,previsto
+fake_240,LOCAL,brasileiros,previsto
+fake_240,LOCAL,stf,previsto
+fake_240,PESSOA,filipe pace,previsto
+fake_240,PESSOA,lula,previsto
+fake_240,PESSOA,sergio moro,previsto
+fake_240,PESSOA,sérgio moro,previsto
+fake_249,DATA,2014,previsto
+fake_249,DATA,2015,previsto
+fake_249,LOCAL,educação física,previsto
+fake_249,LOCAL,polícia federal,previsto
+fake_249,LOCAL,receita federal,previsto
+fake_249,ORGANIZACAO,corinthians,previsto
+fake_249,ORGANIZACAO,odebrecht,previsto
+fake_249,ORGANIZACAO,são paulo,previsto
+fake_249,PESSOA,luis inácio lula da silva,previsto
+fake_249,PESSOA,luiz inácio lula da silva,previsto
+fake_249,PESSOA,lula,previsto
+fake_249,PESSOA,luís cláudio,previsto
+fake_249,PESSOA,luís cláudio da silva,previsto
+fake_249,PESSOA,marcondes & mautoni,previsto
+fake_249,PESSOA,mauro marcondes,previsto
+fake_2510,ORGANIZACAO,rolex,previsto
+fake_2510,PESSOA,cunha,previsto
+fake_2510,PESSOA,luana,previsto
+fake_2510,PESSOA,luana piovani,previsto
+fake_2601,DATA,2010,previsto
+fake_2601,LOCAL,curitiba,previsto
+fake_2601,LOCAL,distrito federal,previsto
+fake_2601,LOCAL,paraná,previsto
+fake_2601,LOCAL,pernambuco,previsto
+fake_2601,LOCAL,rio grande do sul,previsto
+fake_2601,LOCAL,são paulo,previsto
+fake_2601,LOCAL,água verde,previsto
+fake_2601,ORGANIZACAO,petrobras,previsto
+fake_2601,ORGANIZACAO,pf,previsto
+fake_2601,ORGANIZACAO,pt,previsto
+fake_2601,PESSOA,dilma,previsto
+fake_2601,PESSOA,gleisi,previsto
+fake_2601,PESSOA,gleisi hoffmann,previsto
+fake_2601,PESSOA,lula,previsto
+fake_2601,PESSOA,marido,previsto
+fake_2601,PESSOA,paulo,previsto
+fake_2601,PESSOA,paulo bernardo,previsto
+fake_2601,PESSOA,pt,previsto
+fake_2606,LOCAL,moradora de são bernardo,previsto
+fake_2606,LOCAL,pf,previsto
+fake_2606,LOCAL,são bernardo do campo,previsto
+fake_2606,PESSOA,lula,previsto
+fake_2606,PESSOA,marisa,previsto
+fake_2606,PESSOA,neusa gomes,previsto
+fake_2718,LOCAL,câmara dos deputados,previsto
+fake_2718,LOCAL,nobres,previsto
+fake_2718,LOCAL,suframa,previsto
+fake_2718,PESSOA,michel temer,previsto
+fake_273,LOCAL,previdência,previsto
+fake_273,LOCAL,são paulo,previsto
+fake_273,PESSOA,dilma,previsto
+fake_273,PESSOA,temer,previsto
+fake_273,PESSOA,vosmicê,previsto
+fake_2779,LOCAL,ministro do planejamento,previsto
+fake_2779,LOCAL,stf,previsto
+fake_2779,ORGANIZACAO,justiça,previsto
+fake_2779,ORGANIZACAO,lava jato,previsto
+fake_2779,ORGANIZACAO,transpetro,previsto
+fake_2779,PESSOA,cerveró,previsto
+fake_2779,PESSOA,delcídio,previsto
+fake_2779,PESSOA,delcídio amaral,previsto
+fake_2779,PESSOA,dilma,previsto
+fake_2779,PESSOA,folha rubens valente,previsto
+fake_2779,PESSOA,jucá,previsto
+fake_2779,PESSOA,lava jato,previsto
+fake_2779,PESSOA,michel temer,previsto
+fake_2779,PESSOA,romero jucá,previsto
+fake_2779,PESSOA,sergio machado,previsto
+fake_2779,PESSOA,temer,previsto
+fake_2819,LOCAL,curitiba,previsto
+fake_2819,LOCAL,paraná,previsto
+fake_2819,LOCAL,presídio de pinhais,previsto
+fake_2819,LOCAL,vara criminal de são paulo,previsto
+fake_2819,LOCAL,vara federal de curitiba,previsto
+fake_2819,ORGANIZACAO,lava jato,previsto
+fake_2819,ORGANIZACAO,perdeu a blindagem: diário oficial,previsto
+fake_2819,ORGANIZACAO,pf,previsto
+fake_2819,PESSOA,dilma rousseff,previsto
+fake_2819,PESSOA,lula,previsto
+fake_2819,PESSOA,moro,previsto
+fake_2819,PESSOA,sérgio moro,previsto
+fake_2882,LOCAL,ceará,previsto
+fake_2882,LOCAL,stf,previsto
+fake_2882,ORGANIZACAO,operação lava jato,previsto
+fake_2882,ORGANIZACAO,pgr,previsto
+fake_2882,PESSOA,cid,previsto
+fake_2882,PESSOA,cid gomes,previsto
+fake_2882,PESSOA,ciro gomes,previsto
+fake_2882,PESSOA,janot,previsto
+fake_2882,PESSOA,lava-jato,previsto
+fake_2882,PESSOA,moro,previsto
+fake_2882,PESSOA,rodrigo janot,previsto
+fake_2882,PESSOA,teori,previsto
+fake_2882,PESSOA,teori zavascki,previsto
+fake_2898,LOCAL,ministério público,previsto
+fake_2898,LOCAL,stf,previsto
+fake_2898,LOCAL,supremo tribunal federal,previsto
+fake_2898,ORGANIZACAO,globo,previsto
+fake_2898,ORGANIZACAO,justiça,previsto
+fake_2898,PESSOA,dilma,previsto
+fake_2898,PESSOA,lava-jato,previsto
+fake_2898,PESSOA,lula,previsto
+fake_2898,PESSOA,noblat,previsto
+fake_2898,PESSOA,ricardo noblat,previsto
+fake_2898,PESSOA,sérgio moro,previsto
+fake_2932,LOCAL,avenida paulista,previsto
+fake_2932,LOCAL,paulista,previsto
+fake_2932,ORGANIZACAO,fiesp,previsto
+fake_2932,ORGANIZACAO,petista,previsto
+fake_2932,ORGANIZACAO,pt,previsto
+fake_2932,PESSOA,jair bolsonaro,previsto
+fake_2947,LOCAL,hotel royal tulip,previsto
+fake_2947,LOCAL,quartel general,previsto
+fake_2947,ORGANIZACAO,partido dos trabalhadores,previsto
+fake_2947,ORGANIZACAO,pt,previsto
+fake_2947,PESSOA,casa civil,previsto
+fake_2947,PESSOA,lava jato,previsto
+fake_2947,PESSOA,lula,previsto
+fake_2947,PESSOA,moro,previsto
+fake_2947,PESSOA,sérgio moro,previsto
+fake_2948,LOCAL,república do paraná,previsto
+fake_2948,LOCAL,tomara,previsto
+fake_2948,PESSOA,dilma,previsto
+fake_2948,PESSOA,dilma rousseff,previsto
+fake_2948,PESSOA,jaques wagner,previsto
+fake_2948,PESSOA,lula,previsto
+fake_3056,DATA,segunda,previsto
+fake_3056,LOCAL,caiu,previsto
+fake_3056,PESSOA,convocaram,previsto
+fake_3056,PESSOA,dilma,previsto
+fake_3056,PESSOA,lava jato,previsto
+fake_3056,PESSOA,lula,previsto
+fake_3056,PESSOA,ministro lula,previsto
+fake_3056,PESSOA,molina,previsto
+fake_3056,PESSOA,ricardo molina,previsto
+fake_3056,PESSOA,sergio moro,previsto
+fake_3085,LOCAL,estado,previsto
+fake_3085,ORGANIZACAO,nomeação de lula,previsto
+fake_3085,ORGANIZACAO,pt,previsto
+fake_3085,PESSOA,dilma,previsto
+fake_3085,PESSOA,lula,previsto
+fake_3085,PESSOA,professor de ética e política da unicamp,previsto
+fake_3085,PESSOA,roberto,previsto
+fake_3085,PESSOA,roberto romano,previsto
+fake_3118,LOCAL,dem ronaldo caiado,previsto
+fake_3118,LOCAL,estado,previsto
+fake_3118,LOCAL,go,previsto
+fake_3118,LOCAL,goiânia,previsto
+fake_3118,LOCAL,polícia federal,previsto
+fake_3118,LOCAL,venezuela,previsto
+fake_3118,ORGANIZACAO,exército vermelho de lula,previsto
+fake_3118,ORGANIZACAO,globo,previsto
+fake_3118,ORGANIZACAO,grupo jaime câmara,previsto
+fake_3118,ORGANIZACAO,rede globo,previsto
+fake_3118,ORGANIZACAO,tv globo,previsto
+fake_3118,PESSOA,caiado,previsto
+fake_3118,PESSOA,lula,previsto
+fake_3295,DATA,sábado,previsto
+fake_3295,LOCAL,aedes,previsto
+fake_3295,LOCAL,batatinha,previsto
+fake_3295,LOCAL,brasil,previsto
+fake_3295,LOCAL,nordeste,previsto
+fake_3295,LOCAL,pernambuco,previsto
+fake_3295,LOCAL,recife,previsto
+fake_3295,ORGANIZACAO,reinaldo,previsto
+fake_3295,PESSOA,8min56s,previsto
+fake_3295,PESSOA,dilma,previsto
+fake_3295,PESSOA,dilma rousseff,previsto
+fake_3295,PESSOA,presidente dilma,previsto
+fake_3295,PESSOA,reinaldo,previsto
+fake_3295,PESSOA,reinaldo azevedo,previsto
+fake_3303,LOCAL,dra,previsto
+fake_3303,PESSOA,janaína paschoal destrói,previsto
+fake_3357,ORGANIZACAO,petrobras,previsto
+fake_3357,ORGANIZACAO,pt,previsto
+fake_3458,DATA,2006,previsto
+fake_3458,ORGANIZACAO,banco shahin,previsto
+fake_3458,ORGANIZACAO,lava jato,previsto
+fake_3458,ORGANIZACAO,petrobras,previsto
+fake_3458,ORGANIZACAO,samsung,previsto
+fake_3458,ORGANIZACAO,schahin,previsto
+fake_3458,ORGANIZACAO,vitória 10000,previsto
+fake_3458,PESSOA,diogo mainardi,previsto
+fake_3458,PESSOA,júlio camargo,previsto
+fake_3458,PESSOA,lava jato,previsto
+fake_3458,PESSOA,lula,previsto
+fake_3458,PESSOA,nestor cerveró,previsto
+fake_3495,PESSOA,delcídio amaral,previsto
+fake_385,DATA,2018,previsto
+fake_385,LOCAL,stf,previsto
+fake_385,PESSOA,cármem lúcia,previsto
+fake_436,DATA,2001,previsto
+fake_436,DATA,2002,previsto
+fake_436,LOCAL,brasil,previsto
+fake_436,LOCAL,cingapura,previsto
+fake_436,LOCAL,estaleiro,previsto
+fake_436,ORGANIZACAO,departamento de justiça dos eua,previsto
+fake_436,ORGANIZACAO,petrobras,previsto
+fake_436,ORGANIZACAO,petrobrás,previsto
+fake_436,PESSOA,dilma,previsto
+fake_436,PESSOA,fernando henrique cardoso,previsto
+fake_436,PESSOA,fhc,previsto
+fake_436,PESSOA,folha de s. paulo,previsto
+fake_436,PESSOA,keppel fels,previsto
+fake_436,PESSOA,lula,previsto
+fake_470,LOCAL,dti,previsto
+fake_470,LOCAL,harvard,previsto
+fake_470,LOCAL,rm,previsto
+fake_470,ORGANIZACAO,neuroscience,previsto
+fake_470,ORGANIZACAO,oxford academic,previsto
+fake_470,ORGANIZACAO,sachs,previsto
+fake_470,PESSOA,matthew,previsto
+fake_470,PESSOA,matthew sachs,previsto
+fake_490,ORGANIZACAO,igreja da inglaterra,previsto
+fake_490,PESSOA,george,previsto
+fake_490,PESSOA,padre,previsto
+fake_643,DATA,04/10/2017,previsto
+fake_643,LOCAL,coreia,previsto
+fake_643,LOCAL,coreia do norte,previsto
+fake_643,LOCAL,coréia do norte,previsto
+fake_643,LOCAL,eua,previsto
+fake_643,LOCAL,"icbm""s",previsto
+fake_643,LOCAL,japão,previsto
+fake_643,LOCAL,pyongyang,previsto
+fake_643,ORGANIZACAO,agência de inteligência da defesa,previsto
+fake_643,ORGANIZACAO,ic,previsto
+fake_643,PESSOA,kim jong un,previsto
+fake_643,PESSOA,kin jong-un,previsto
+fake_771,DATA,2010,previsto
+fake_771,ORGANIZACAO,defesa civil,previsto
+fake_771,PESSOA,geddel,previsto
+fake_771,PESSOA,lula,previsto
+fake_890,DATA,2008,previsto
+fake_890,LOCAL,brasil,previsto
+fake_890,PESSOA,glenn greenwald,previsto
+fake_890,PESSOA,greenwald,previsto
+fake_890,PESSOA,lula,previsto
+fake_890,PESSOA,perguntaram,previsto
+fake_890,PESSOA,presidente dilma,previsto
+true_1002,DATA,sexta-feira (22,previsto
+true_1002,ORGANIZACAO,jornal da globo,previsto
+true_1002,ORGANIZACAO,tv globo,previsto
+true_1002,PESSOA,heraldo pereira,previsto
+true_1002,PESSOA,renata lo prete,previsto
+true_1002,PESSOA,william waack,previsto
+true_1192,DATA,quarta-feira (24,previsto
+true_1192,LOCAL,brasília,previsto
+true_1192,LOCAL,congresso,previsto
+true_1192,LOCAL,esplanada,previsto
+true_1192,LOCAL,esplanada dos ministérios,previsto
+true_1192,LOCAL,ministério da agricultura,previsto
+true_1192,LOCAL,planejamento e da cultura,previsto
+true_1192,LOCAL,previdência,previsto
+true_1192,ORGANIZACAO,central única dos trabalhadores,previsto
+true_1192,ORGANIZACAO,cut,previsto
+true_1192,ORGANIZACAO,pm,previsto
+true_1192,PESSOA,michel temer,previsto
+true_1192,PESSOA,temer,previsto
+true_1202,LOCAL,estado democrático de direito,previsto
+true_1202,LOCAL,ministério público,previsto
+true_1202,LOCAL,ministério público federal,previsto
+true_1202,LOCAL,stf,previsto
+true_1202,LOCAL,supremo tribunal federal,previsto
+true_1202,ORGANIZACAO,abi,previsto
+true_1202,ORGANIZACAO,constituição federal,previsto
+true_1202,ORGANIZACAO,lava jato,previsto
+true_1202,ORGANIZACAO,operação lava jato,previsto
+true_1202,ORGANIZACAO,pgr,previsto
+true_1202,PESSOA,andrea neves,previsto
+true_1202,PESSOA,aécio,previsto
+true_1202,PESSOA,aécio neves,previsto
+true_1202,PESSOA,fachin,previsto
+true_1202,PESSOA,luiz edson fachin,previsto
+true_1202,PESSOA,reinaldo azevedo,previsto
+true_1228,DATA,24 de março,previsto
+true_1228,DATA,quinta-feira,previsto
+true_1228,LOCAL,stf,previsto
+true_1228,LOCAL,supremo tribunal federal,previsto
+true_1228,LOCAL,são paulo,previsto
+true_1228,ORGANIZACAO,grupo jbs,previsto
+true_1228,ORGANIZACAO,psdb,previsto
+true_1228,PESSOA,aécio neves,previsto
+true_1228,PESSOA,edson fachin,previsto
+true_1228,PESSOA,joesley batista,previsto
+true_1228,PESSOA,michel temer,previsto
+true_1400,DATA,2007,previsto
+true_1400,DATA,quinta-feira (20,previsto
+true_1400,LOCAL,amazonas,previsto
+true_1400,LOCAL,amazônia,previsto
+true_1400,LOCAL,br-319,previsto
+true_1400,LOCAL,luiz castro,previsto
+true_1400,ORGANIZACAO,pt,previsto
+true_1400,ORGANIZACAO,rede,previsto
+true_1400,ORGANIZACAO,rádio cbn amazônia,previsto
+true_1400,PESSOA,luiz castro,previsto
+true_1400,PESSOA,marina,previsto
+true_1400,PESSOA,marina silva,previsto
+true_1415,LOCAL,rj,previsto
+true_1415,LOCAL,supremo,previsto
+true_1415,LOCAL,supremo tribunal federal,previsto
+true_1415,ORGANIZACAO,pmdb,previsto
+true_1415,PESSOA,adriana ancelmo,previsto
+true_1415,PESSOA,gilmar mendes,previsto
+true_1415,PESSOA,sérgio cabral,previsto
+true_1617,DATA,quarta-feira (25,previsto
+true_1617,DATA,quinta-feira (26,previsto
+true_1617,DATA,terça-feira (23,previsto
+true_1617,LOCAL,hospital sírio-libanês,previsto
+true_1617,LOCAL,são paulo,previsto
+true_1617,LOCAL,sírio-libanês,previsto
+true_1617,ORGANIZACAO,unidade de terapia intensiva,previsto
+true_1617,ORGANIZACAO,uti,previsto
+true_1617,PESSOA,dona marisa,previsto
+true_1617,PESSOA,luiz inácio lula da silva,previsto
+true_1617,PESSOA,marisa letícia,previsto
+true_1617,PESSOA,marisa letícia lula da silva,previsto
+true_1619,DATA,14 de julho de 2015,previsto
+true_1619,DATA,15 de julho de 2010,previsto
+true_1619,DATA,2016,previsto
+true_1619,DATA,terça-feira,previsto
+true_1619,LOCAL,alerj,previsto
+true_1619,LOCAL,assembleia legislativa do rio de janeiro,previsto
+true_1619,LOCAL,cadeia velha,previsto
+true_1619,LOCAL,esportes do governo,previsto
+true_1619,LOCAL,estado,previsto
+true_1619,LOCAL,fetranspor,previsto
+true_1619,LOCAL,ministério público federal,previsto
+true_1619,LOCAL,operação cadeia velha,previsto
+true_1619,LOCAL,polícia federal,previsto
+true_1619,LOCAL,procuradoria,previsto
+true_1619,LOCAL,região,previsto
+true_1619,LOCAL,rio,previsto
+true_1619,LOCAL,tribunal regional federal da 2ª região,previsto
+true_1619,ORGANIZACAO,assembleia,previsto
+true_1619,ORGANIZACAO,caixa,previsto
+true_1619,ORGANIZACAO,federação das empresas de transportes de passageiros do estado do rio de janeiro,previsto
+true_1619,ORGANIZACAO,lava jato,previsto
+true_1619,ORGANIZACAO,lava jato álvaro novis,previsto
+true_1619,ORGANIZACAO,nccc,previsto
+true_1619,ORGANIZACAO,núcleo criminal de combate à corrupção,previsto
+true_1619,ORGANIZACAO,pf,previsto
+true_1619,ORGANIZACAO,pmdb,previsto
+true_1619,PESSOA,abel gomes,previsto
+true_1619,PESSOA,edson albertassi,previsto
+true_1619,PESSOA,felipe picciani,previsto
+true_1619,PESSOA,jorge luiz,previsto
+true_1619,PESSOA,jorge luiz ribeiro,previsto
+true_1619,PESSOA,jorge picciani,previsto
+true_1619,PESSOA,josé carlos lavoura,previsto
+true_1619,PESSOA,leonardo picciani,previsto
+true_1619,PESSOA,manoel,previsto
+true_1619,PESSOA,michel temer,previsto
+true_1619,PESSOA,paulo melo,previsto
+true_1619,PESSOA,picciani,previsto
+true_1619,PESSOA,puccinelli,previsto
+true_1619,PESSOA,sérgio cabral,previsto
+true_1619,PESSOA,transexpert,previsto
+true_1706,LOCAL,baixada fluminense,previsto
+true_1706,LOCAL,imagens,previsto
+true_1706,LOCAL,japeri,previsto
+true_1706,LOCAL,rio,previsto
+true_1706,ORGANIZACAO,secretaria de administração,previsto
+true_1706,PESSOA,alexander mota,previsto
+true_1706,PESSOA,milton dias moreira,previsto
+true_1782,DATA,2016,previsto
+true_1782,DATA,janeiro,previsto
+true_1782,DATA,segunda-feira (14,previsto
+true_1782,DATA,setembro,previsto
+true_1782,ORGANIZACAO,organização meteorológica mundial,previsto
+true_1852,DATA,16 de maio de 2017,previsto
+true_1852,DATA,2014,previsto
+true_1852,DATA,terça-feira,previsto
+true_1852,LOCAL,congresso,previsto
+true_1852,ORGANIZACAO,operação lava jato,previsto
+true_1852,ORGANIZACAO,psdb,previsto
+true_1852,ORGANIZACAO,tribunal superior eleitoral,previsto
+true_1852,ORGANIZACAO,tse,previsto
+true_1852,PESSOA,dilma,previsto
+true_1852,PESSOA,dilma-temer,previsto
+true_1852,PESSOA,gilmar mendes,previsto
+true_1852,PESSOA,mal de parkinson,previsto
+true_1852,PESSOA,michel temer,previsto
+true_1852,PESSOA,temer,previsto
+true_1852,PESSOA,trump,previsto
+true_1854,DATA,março,previsto
+true_1854,DATA,segunda,previsto
+true_1854,LOCAL,corte,previsto
+true_1854,LOCAL,país,previsto
+true_1854,LOCAL,stf,previsto
+true_1854,LOCAL,supremo,previsto
+true_1854,LOCAL,são paulo,previsto
+true_1854,ORGANIZACAO,lava jato,previsto
+true_1854,PESSOA,alexandre de moraes,previsto
+true_1854,PESSOA,gilmar mendes,previsto
+true_1854,PESSOA,luiz roberto barroso,previsto
+true_1874,DATA,terça-feira,previsto
+true_1874,LOCAL,amazônia,previsto
+true_1874,LOCAL,amazônia legal,previsto
+true_1874,LOCAL,congresso,previsto
+true_1874,LOCAL,única,previsto
+true_1874,ORGANIZACAO,agência brasileira de exportações,previsto
+true_1874,ORGANIZACAO,coalizão,previsto
+true_1874,ORGANIZACAO,psdb,previsto
+true_1874,ORGANIZACAO,união da indústria de cana de açúcar,previsto
+true_1874,PESSOA,flexa ribeiro,previsto
+true_1874,PESSOA,pl,previsto
+true_1917,DATA,28 de junho de 2017,previsto
+true_1917,DATA,29 de junho de 2017,previsto
+true_1917,DATA,quarta-feira,previsto
+true_1917,DATA,quinta-feira,previsto
+true_1917,LOCAL,ccj,previsto
+true_1917,LOCAL,câmara,previsto
+true_1917,LOCAL,eldorado,previsto
+true_1917,LOCAL,rádio eldorado,previsto
+true_1917,ORGANIZACAO,ccj,previsto
+true_1917,ORGANIZACAO,comissão de constituição e justiça,previsto
+true_1917,ORGANIZACAO,pmdb,previsto
+true_1917,ORGANIZACAO,psdb,previsto
+true_1917,PESSOA,guilherme de brito,previsto
+true_1917,PESSOA,nelson cavaquinho,previsto
+true_1917,PESSOA,rogério marinho,previsto
+true_1917,PESSOA,romero jucá,previsto
+true_1917,PESSOA,sanearão,previsto
+true_1917,PESSOA,temer,previsto
+true_1929,DATA,segunda,previsto
+true_1929,LOCAL,guarujá,previsto
+true_1929,ORGANIZACAO,mensalão,previsto
+true_1929,ORGANIZACAO,petrobrás,previsto
+true_1929,ORGANIZACAO,pp,previsto
+true_1929,PESSOA,abastecimento,previsto
+true_1929,PESSOA,eduardo cunha,previsto
+true_1929,PESSOA,lava jato,previsto
+true_1929,PESSOA,luiz inácio lula da silva,previsto
+true_1929,PESSOA,lula,previsto
+true_1929,PESSOA,pedro correa,previsto
+true_1929,PESSOA,pedro corrêa,previsto
+true_1929,PESSOA,roberto costa,previsto
+true_2137,DATA,terça-feira,previsto
+true_2137,LOCAL,congresso,previsto
+true_2137,LOCAL,estado,previsto
+true_2137,LOCAL,república,previsto
+true_2137,LOCAL,stf,previsto
+true_2137,LOCAL,supremo tribunal federal,previsto
+true_2137,ORGANIZACAO,globo,previsto
+true_2137,ORGANIZACAO,operação lava jato,previsto
+true_2137,ORGANIZACAO,planejamento,previsto
+true_2137,ORGANIZACAO,pmdb,previsto
+true_2137,PESSOA,janot,previsto
+true_2137,PESSOA,josé sarney,previsto
+true_2137,PESSOA,renan,previsto
+true_2137,PESSOA,renan calheiros,previsto
+true_2137,PESSOA,rodrigo janot,previsto
+true_2137,PESSOA,sarney,previsto
+true_2137,PESSOA,temer romero jucá,previsto
+true_2182,LOCAL,europa,previsto
+true_2182,LOCAL,maximes et réflexions,previsto
+true_2182,LOCAL,vauvernargues,previsto
+true_2219,DATA,quinta-feira,previsto
+true_2219,DATA,sexta,previsto
+true_2219,DATA,sexta-feira,previsto
+true_2219,LOCAL,tcu,previsto
+true_2219,ORGANIZACAO,tribunal de contas da união,previsto
+true_2219,PESSOA,antônio carlos costa dávila carvalho,previsto
+true_2219,PESSOA,dilma rousseff,previsto
+true_2219,PESSOA,esther dweck,previsto
+true_2219,PESSOA,gleisi hoffmann,previsto
+true_2219,PESSOA,lewandowski,previsto
+true_2219,PESSOA,luiz gonzaga belluzzo,previsto
+true_2219,PESSOA,pt,previsto
+true_2219,PESSOA,renan,previsto
+true_2219,PESSOA,ricardo lodi,previsto
+true_2224,DATA,sexta-feira (25,previsto
+true_2224,LOCAL,argentina,previsto
+true_2224,LOCAL,casal de chimpanzés,previsto
+true_2224,LOCAL,marcelino,previsto
+true_2224,LOCAL,mendoza,previsto
+true_2224,LOCAL,santuário de grandes primatas,previsto
+true_2224,LOCAL,santuário de grandes primatas de sorocaba,previsto
+true_2224,LOCAL,sorocaba,previsto
+true_2224,LOCAL,sp,previsto
+true_2224,ORGANIZACAO,marcelino,previsto
+true_2224,PESSOA,cecilia,previsto
+true_2224,PESSOA,cecília,previsto
+true_2229,DATA,20 de outubro,previsto
+true_2229,LOCAL,colégio goyases,previsto
+true_2229,LOCAL,goiânia,previsto
+true_2229,ORGANIZACAO,centro de internação provisória do 7º batalhão da polícia militar,previsto
+true_2229,PESSOA,rosângela magalhães,previsto
+true_2283,LOCAL,estado,previsto
+true_2283,LOCAL,peru,previsto
+true_2283,LOCAL,universidade de vanderbilt,previsto
+true_2283,ORGANIZACAO,odebrecht,previsto
+true_2283,PESSOA,alberto fujimori,previsto
+true_2283,PESSOA,arturo maldonado,previsto
+true_2283,PESSOA,fujimori,previsto
+true_2283,PESSOA,pedro pablo kuczynski,previsto
+true_2283,PESSOA,ppk,previsto
+true_240,DATA,24 de janeiro,previsto
+true_240,LOCAL,tribunal,previsto
+true_240,ORGANIZACAO,tribunal regional federal da 4ª região,previsto
+true_240,PESSOA,luiz inácio lula da silva,previsto
+true_240,PESSOA,lula,previsto
+true_240,PESSOA,lula o trf-4,previsto
+true_249,DATA,2015,previsto
+true_249,DATA,terça-feira (28,previsto
+true_249,LOCAL,brasil,previsto
+true_249,LOCAL,divinópolis,previsto
+true_249,LOCAL,mg,previsto
+true_249,LOCAL,stf,previsto
+true_249,ORGANIZACAO,lulinha,previsto
+true_249,ORGANIZACAO,petrobras,previsto
+true_249,ORGANIZACAO,psdb,previsto
+true_249,PESSOA,domingos sávio,previsto
+true_249,PESSOA,fábio luis,previsto
+true_249,PESSOA,fábio luis lula da silva,previsto
+true_249,PESSOA,fábio luís,previsto
+true_249,PESSOA,luiz inácio lula da silva,previsto
+true_249,PESSOA,lula,previsto
+true_249,PESSOA,sávio,previsto
+true_2510,DATA,segunda,previsto
+true_2510,LOCAL,estado de são paulo,previsto
+true_2510,LOCAL,grpae,previsto
+true_2510,LOCAL,grupamento de radiopatrulha aérea,previsto
+true_2510,LOCAL,oeste paulista,previsto
+true_2510,LOCAL,polícia militar,previsto
+true_2510,LOCAL,tenente mayara,previsto
+true_2510,ORGANIZACAO,g1,previsto
+true_2510,ORGANIZACAO,pm,previsto
+true_2510,ORGANIZACAO,águia,previsto
+true_2601,DATA,quarta,previsto
+true_2601,DATA,quarta (14,previsto
+true_2601,DATA,quinta,previsto
+true_2601,DATA,sexta,previsto
+true_2601,DATA,sexta-feira (16,previsto
+true_2601,LOCAL,catedral da sé,previsto
+true_2601,LOCAL,centro,previsto
+true_2601,LOCAL,dom paulo,previsto
+true_2601,ORGANIZACAO,corinthians,previsto
+true_2601,PESSOA,arcebispo emérito da arquidiocese de são paulo,previsto
+true_2601,PESSOA,arns,previsto
+true_2601,PESSOA,cardeal dom paulo evaristo arns,previsto
+true_2601,PESSOA,d. paulo,previsto
+true_2601,PESSOA,d. paulo evaristo arns trajetória,previsto
+true_2601,PESSOA,dom paulo,previsto
+true_2601,PESSOA,lula,previsto
+true_2601,PESSOA,vladimir herzog,previsto
+true_2606,DATA,sexta-feira,previsto
+true_2606,LOCAL,guarujá,previsto
+true_2606,LOCAL,rádio eldorado,previsto
+true_2606,LOCAL,são paulo,previsto
+true_2606,ORGANIZACAO,pt,previsto
+true_2606,ORGANIZACAO,trf-4,previsto
+true_2606,ORGANIZACAO,tribunal regional federal da 4.ª região,previsto
+true_2606,PESSOA,luiz inácio lula da silva,previsto
+true_2606,PESSOA,luiz marinho,previsto
+true_2606,PESSOA,lula,previsto
+true_2606,PESSOA,marinho,previsto
+true_2606,PESSOA,sérgio moro,previsto
+true_2718,DATA,2017,previsto
+true_2718,DATA,2018,previsto
+true_2718,DATA,quarta-feira (30,previsto
+true_2718,DATA,terça (29,previsto
+true_2718,LOCAL,congresso nacional,previsto
+true_2718,ORGANIZACAO,comissão mista de orçamento,previsto
+true_2718,ORGANIZACAO,legislativo,previsto
+true_273,LOCAL,brasil,previsto
+true_273,ORGANIZACAO,ocde,previsto
+true_273,ORGANIZACAO,organização para cooperação e desenvolvimento econômico,previsto
+true_273,PESSOA,álvaro pereira,previsto
+true_2779,DATA,5 de setembro de 2017,previsto
+true_2779,DATA,terça-feira,previsto
+true_2779,LOCAL,anápolis,previsto
+true_2779,LOCAL,eldorado,previsto
+true_2779,LOCAL,ministério público federal,previsto
+true_2779,LOCAL,rádio eldorado,previsto
+true_2779,LOCAL,stf,previsto
+true_2779,ORGANIZACAO,estadão,previsto
+true_2779,ORGANIZACAO,mpf,previsto
+true_2779,ORGANIZACAO,pgr,previsto
+true_2779,PESSOA,fachin,previsto
+true_2779,PESSOA,janot,previsto
+true_2779,PESSOA,joesley,previsto
+true_2779,PESSOA,joesley batista,previsto
+true_2779,PESSOA,marcelo godoy,previsto
+true_2779,PESSOA,marcelo muller,previsto
+true_2779,PESSOA,temer,previsto
+true_2819,DATA,terça-feira,previsto
+true_2819,LOCAL,estado,previsto
+true_2819,LOCAL,ferrovia norte-sul,previsto
+true_2819,LOCAL,república,previsto
+true_2819,LOCAL,stf,previsto
+true_2819,LOCAL,supremo tribunal federal,previsto
+true_2819,ORGANIZACAO,lava jato,previsto
+true_2819,ORGANIZACAO,odebrecht,previsto
+true_2819,ORGANIZACAO,operação da lava jato,previsto
+true_2819,PESSOA,collor,previsto
+true_2819,PESSOA,dilma,previsto
+true_2819,PESSOA,edson fachin,previsto
+true_2819,PESSOA,fachin,previsto
+true_2819,PESSOA,fernando collor de melo,previsto
+true_2819,PESSOA,fhc,previsto
+true_2819,PESSOA,josé sarney,previsto
+true_2819,PESSOA,lula,previsto
+true_2882,LOCAL,ceará,previsto
+true_2882,LOCAL,república,previsto
+true_2882,LOCAL,sobral,previsto
+true_2882,LOCAL,stf,previsto
+true_2882,ORGANIZACAO,lava jato,previsto
+true_2882,ORGANIZACAO,odebrecht,previsto
+true_2882,ORGANIZACAO,pdt,previsto
+true_2882,ORGANIZACAO,petrobrás,previsto
+true_2882,PESSOA,cid,previsto
+true_2882,PESSOA,cid gomes,previsto
+true_2882,PESSOA,lava jato,previsto
+true_2882,PESSOA,rodrigo janot,previsto
+true_2882,PESSOA,sérgio moro,previsto
+true_2882,PESSOA,teori zavascki,previsto
+true_2898,DATA,quarta-feira,previsto
+true_2898,DATA,quarta-feira (13,previsto
+true_2898,DATA,segunda,previsto
+true_2898,LOCAL,justiça federal,previsto
+true_2898,LOCAL,ministério público federal,previsto
+true_2898,LOCAL,paraná,previsto
+true_2898,LOCAL,vara federal de curitiba,previsto
+true_2898,ORGANIZACAO,lava jato,previsto
+true_2898,ORGANIZACAO,odebrecht,previsto
+true_2898,ORGANIZACAO,operação lava jato,previsto
+true_2898,PESSOA,antônio palocci,previsto
+true_2898,PESSOA,branislav kontic,previsto
+true_2898,PESSOA,luiz inácio lula da silva,previsto
+true_2898,PESSOA,lula,previsto
+true_2898,PESSOA,moro,previsto
+true_2898,PESSOA,sérgio moro,previsto
+true_2932,DATA,14 de dezembro,previsto
+true_2932,DATA,2018,previsto
+true_2932,DATA,quinta-feira,previsto
+true_2932,LOCAL,brasília,previsto
+true_2932,LOCAL,congresso,previsto
+true_2932,LOCAL,câmara,previsto
+true_2932,LOCAL,são paulo,previsto
+true_2932,PESSOA,temer,previsto
+true_2947,DATA,2010,previsto
+true_2947,DATA,dezembro,previsto
+true_2947,DATA,segunda-feira,previsto
+true_2947,LOCAL,atibaia,previsto
+true_2947,LOCAL,sp,previsto
+true_2947,ORGANIZACAO,odebrecht,previsto
+true_2947,ORGANIZACAO,operação lava jato,previsto
+true_2947,PESSOA,bittar,previsto
+true_2947,PESSOA,carlos rodrigues do prado,previsto
+true_2947,PESSOA,carlos rodrigues prado,previsto
+true_2947,PESSOA,frederico barbosa,previsto
+true_2947,PESSOA,lula,previsto
+true_2947,PESSOA,rogério aurélio pimentel,previsto
+true_2947,PESSOA,sérgio moro,previsto
+true_2948,DATA,3 de maio,previsto
+true_2948,LOCAL,fazenda,previsto
+true_2948,LOCAL,procuradoria geral da república,previsto
+true_2948,ORGANIZACAO,jbs,previsto
+true_2948,PESSOA,dilma,previsto
+true_2948,PESSOA,dilma rousseff,previsto
+true_2948,PESSOA,guido mantega,previsto
+true_2948,PESSOA,joesley,previsto
+true_2948,PESSOA,joesley batista,previsto
+true_2948,PESSOA,luiz inácio lula da silva,previsto
+true_2948,PESSOA,lula,previsto
+true_3056,LOCAL,polícia federal,previsto
+true_3056,LOCAL,república,previsto
+true_3056,LOCAL,stf,previsto
+true_3056,LOCAL,supremo tribunal federal,previsto
+true_3056,ORGANIZACAO,jbs,previsto
+true_3056,ORGANIZACAO,operação lava jato,previsto
+true_3056,ORGANIZACAO,pgr,previsto
+true_3056,ORGANIZACAO,pmdb,previsto
+true_3056,ORGANIZACAO,psdb,previsto
+true_3056,PESSOA,aécio neves,previsto
+true_3056,PESSOA,edson fachin,previsto
+true_3056,PESSOA,fachin,previsto
+true_3056,PESSOA,janot,previsto
+true_3056,PESSOA,michel temer,previsto
+true_3056,PESSOA,rodrigo janot,previsto
+true_3056,PESSOA,rodrigo rocha loures,previsto
+true_3056,PESSOA,temer,previsto
+true_3085,DATA,2016,previsto
+true_3085,DATA,26 de junho,previsto
+true_3085,LOCAL,goiânia,previsto
+true_3085,LOCAL,mec,previsto
+true_3085,LOCAL,ufg,previsto
+true_3085,LOCAL,unb,previsto
+true_3085,LOCAL,universidade de brasília,previsto
+true_3085,LOCAL,universidade federal de goiás,previsto
+true_3085,ORGANIZACAO,g1,previsto
+true_3085,ORGANIZACAO,ministério da educação,previsto
+true_3085,ORGANIZACAO,universidade pública brasileira,previsto
+true_3085,PESSOA,adão josé peixoto,previsto
+true_3085,PESSOA,dilma,previsto
+true_3085,PESSOA,dilma rousseff,previsto
+true_3118,DATA,19 de outubro de 2017,previsto
+true_3118,DATA,quarta-feira,previsto
+true_3118,DATA,quinta-feira,previsto
+true_3118,DATA,segunda,previsto
+true_3118,LOCAL,casa civil,previsto
+true_3118,LOCAL,ccj,previsto
+true_3118,LOCAL,eldorado,previsto
+true_3118,LOCAL,filipelli,previsto
+true_3118,LOCAL,justiça,previsto
+true_3118,LOCAL,maia,previsto
+true_3118,LOCAL,país,previsto
+true_3118,LOCAL,república,previsto
+true_3118,LOCAL,rádio eldorado,previsto
+true_3118,ORGANIZACAO,ccj,previsto
+true_3118,ORGANIZACAO,comissão de constituição e justiça,previsto
+true_3118,ORGANIZACAO,dem,previsto
+true_3118,ORGANIZACAO,estadão,previsto
+true_3118,ORGANIZACAO,funaro,previsto
+true_3118,ORGANIZACAO,psdb,previsto
+true_3118,PESSOA,bonifácio de andrada,previsto
+true_3118,PESSOA,cunha,previsto
+true_3118,PESSOA,eliseu padilha,previsto
+true_3118,PESSOA,geddel,previsto
+true_3118,PESSOA,janot,previsto
+true_3118,PESSOA,lúcio,previsto
+true_3118,PESSOA,michel temer,previsto
+true_3118,PESSOA,moreira,previsto
+true_3118,PESSOA,moreira franco,previsto
+true_3118,PESSOA,padilha,previsto
+true_3118,PESSOA,rocha loures,previsto
+true_3118,PESSOA,rodrigo maia,previsto
+true_3118,PESSOA,temer,previsto
+true_3295,DATA,abril,previsto
+true_3295,DATA,quarta-feira (27,previsto
+true_3295,LOCAL,bretas,previsto
+true_3295,LOCAL,delta construções,previsto
+true_3295,LOCAL,juiz,previsto
+true_3295,LOCAL,juiz marcelo bretas,previsto
+true_3295,LOCAL,polícia federal,previsto
+true_3295,LOCAL,recusava,previsto
+true_3295,LOCAL,rio,previsto
+true_3295,LOCAL,rio de janeiro,previsto
+true_3295,LOCAL,roma,previsto
+true_3295,LOCAL,saúde do rio,previsto
+true_3295,LOCAL,vara criminal do rio,previsto
+true_3295,LOCAL,vaticano,previsto
+true_3295,ORGANIZACAO,g1,previsto
+true_3295,ORGANIZACAO,lava jato,previsto
+true_3295,ORGANIZACAO,operação lava jato,previsto
+true_3295,ORGANIZACAO,pf,previsto
+true_3295,ORGANIZACAO,tv globo,previsto
+true_3295,PESSOA,bretas,previsto
+true_3295,PESSOA,cabral,previsto
+true_3295,PESSOA,eike batista,previsto
+true_3295,PESSOA,fernando cavendish,previsto
+true_3295,PESSOA,ilze scamparini,previsto
+true_3295,PESSOA,magistrado,previsto
+true_3295,PESSOA,marcelo bretas,previsto
+true_3295,PESSOA,papa,previsto
+true_3295,PESSOA,papa francisco,previsto
+true_3295,PESSOA,questionado,previsto
+true_3295,PESSOA,sérgio cabral,previsto
+true_3295,PESSOA,sérgio cortes,previsto
+true_3303,LOCAL,hotel santa maria,previsto
+true_3303,LOCAL,prefeitura de sp,previsto
+true_3303,LOCAL,prefeitura de são paulo,previsto
+true_3357,DATA,quinta-feira (8,previsto
+true_3357,LOCAL,casa branca,previsto
+true_3357,LOCAL,congresso,previsto
+true_3357,LOCAL,estados unidos,previsto
+true_3357,LOCAL,moscou,previsto
+true_3357,ORGANIZACAO,fbi,previsto
+true_3357,PESSOA,comey,previsto
+true_3357,PESSOA,flynn,previsto
+true_3357,PESSOA,james comey,previsto
+true_3357,PESSOA,trump,previsto
+true_3458,DATA,agosto de 2011,previsto
+true_3458,DATA,dezembro de 2015,previsto
+true_3458,DATA,segunda-feira (25,previsto
+true_3458,LOCAL,grande são paulo,previsto
+true_3458,LOCAL,ministério público federal,previsto
+true_3458,LOCAL,são bernardo do campo,previsto
+true_3458,ORGANIZACAO,mpf,previsto
+true_3458,ORGANIZACAO,odebrecht,previsto
+true_3458,PESSOA,glaucos da costamarques,previsto
+true_3458,PESSOA,josé carlos bumlai,previsto
+true_3458,PESSOA,lava jato,previsto
+true_3458,PESSOA,luiz inácio lula da silva,previsto
+true_3458,PESSOA,lula,previsto
+true_3495,DATA,terça-feira,previsto
+true_3495,PESSOA,turma do supremo tribunal federal,previsto
+true_385,DATA,2018,previsto
+true_385,DATA,segunda-feira,previsto
+true_385,LOCAL,brasil,previsto
+true_385,LOCAL,buenos aires,previsto
+true_385,LOCAL,paris,previsto
+true_385,ORGANIZACAO,finanças do g-20,previsto
+true_385,ORGANIZACAO,g-20,previsto
+true_385,ORGANIZACAO,ocde,previsto
+true_385,ORGANIZACAO,organização para cooperação e desenvolvimento econômico,previsto
+true_385,PESSOA,londres,previsto
+true_436,LOCAL,angola,previsto
+true_436,LOCAL,brasil,previsto
+true_436,LOCAL,g1,previsto
+true_436,LOCAL,procuradoria,previsto
+true_436,ORGANIZACAO,departamento de justiça dos eua,previsto
+true_436,ORGANIZACAO,g1,previsto
+true_436,ORGANIZACAO,lava jato,previsto
+true_436,ORGANIZACAO,odebrecht,previsto
+true_470,DATA,1986,previsto
+true_470,LOCAL,eua,previsto
+true_470,LOCAL,kansas,previsto
+true_470,PESSOA,pennebaker,previsto
+true_470,PESSOA,psicologia james pennebaker,previsto
+true_470,PESSOA,psiconeuroimunologia,previsto
+true_490,LOCAL,padre da paróquia santa helena,previsto
+true_490,LOCAL,suzano,previsto
+true_490,ORGANIZACAO,golpistas,previsto
+true_643,DATA,1991,previsto
+true_643,DATA,2012,previsto
+true_643,DATA,agosto,previsto
+true_643,LOCAL,coreia do norte,previsto
+true_643,LOCAL,coreia do sul,previsto
+true_643,LOCAL,coreias,previsto
+true_643,LOCAL,estados unidos,previsto
+true_643,LOCAL,eua,previsto
+true_643,LOCAL,hong joon-pyo,previsto
+true_643,LOCAL,norte,previsto
+true_643,LOCAL,península,previsto
+true_643,LOCAL,ri chun-hee,previsto
+true_643,LOCAL,sul,previsto
+true_643,ORGANIZACAO,partido coreia liberdade,previsto
+true_643,ORGANIZACAO,pew research,previsto
+true_771,DATA,outubro,previsto
+true_771,DATA,quarta-feira (28,previsto
+true_771,LOCAL,laranjeiras do sul,previsto
+true_771,LOCAL,paraná,previsto
+true_771,LOCAL,quedas do iguaçu,previsto
+true_771,PESSOA,lula,previsto
+true_890,DATA,9 de maio de 2017,previsto
+true_890,DATA,terça-feira,previsto
+true_890,LOCAL,curitiba,previsto
+true_890,LOCAL,justiça,previsto
+true_890,ORGANIZACAO,justiça,previsto
+true_890,PESSOA,lula,previsto
+true_890,PESSOA,qr-code,previsto
+true_890,PESSOA,sérgio moro,previsto
+fake_1002,DATA,sexta-feira,ouro
+fake_1002,LOCAL,são paulo,ouro
+fake_1002,ORGANIZACAO,hospital sírio-libanês,ouro
+fake_1002,ORGANIZACAO,rede globo,ouro
+fake_1002,ORGANIZACAO,sírio libanês,ouro
+fake_1002,PESSOA,carlos tramontina,ouro
+fake_1002,PESSOA,waack,ouro
+fake_1002,PESSOA,willian,ouro
+fake_1002,PESSOA,willian waack,ouro
+fake_1192,LOCAL,brasília,ouro
+fake_1192,LOCAL,cuba,ouro
+fake_1192,LOCAL,distrito,ouro
+fake_1192,LOCAL,esplanada,ouro
+fake_1192,LOCAL,rússia,ouro
+fake_1192,ORGANIZACAO,cut,ouro
+fake_1192,ORGANIZACAO,friboi,ouro
+fake_1192,ORGANIZACAO,minas e energia,ouro
+fake_1192,ORGANIZACAO,ministério da fazenda,ouro
+fake_1192,ORGANIZACAO,ministério dos transportes,ouro
+fake_1192,ORGANIZACAO,mst,ouro
+fake_1192,ORGANIZACAO,pm,ouro
+fake_1192,ORGANIZACAO,pt,ouro
+fake_1192,PESSOA,joesley batista,ouro
+fake_1192,PESSOA,temer,ouro
+fake_1202,LOCAL,minas gerais,ouro
+fake_1202,ORGANIZACAO,buzzfeed,ouro
+fake_1202,ORGANIZACAO,odebrecht,ouro
+fake_1202,ORGANIZACAO,pf,ouro
+fake_1202,ORGANIZACAO,pgr,ouro
+fake_1202,ORGANIZACAO,senado,ouro
+fake_1202,ORGANIZACAO,veja,ouro
+fake_1202,PESSOA,andréa neves,ouro
+fake_1202,PESSOA,aécio,ouro
+fake_1202,PESSOA,aécio neves,ouro
+fake_1202,PESSOA,reinaldo,ouro
+fake_1202,PESSOA,reinaldo azevedo,ouro
+fake_1202,PESSOA,rodrigo janot,ouro
+fake_1228,PESSOA,aécio,ouro
+fake_1228,PESSOA,aécio neves,ouro
+fake_1228,PESSOA,fernandinho beira-mar,ouro
+fake_1228,PESSOA,marcola,ouro
+fake_1228,PESSOA,paulo henrique amorim,ouro
+fake_1400,LOCAL,brasil,ouro
+fake_1400,ORGANIZACAO,partido dos trabalhadores,ouro
+fake_1400,ORGANIZACAO,pt,ouro
+fake_1400,PESSOA,antônio fagundes,ouro
+fake_1400,PESSOA,fagundes,ouro
+fake_1400,PESSOA,fagundes fagundes,ouro
+fake_1415,LOCAL,sp,ouro
+fake_1415,LOCAL,tatuí,ouro
+fake_1415,ORGANIZACAO,stf,ouro
+fake_1415,PESSOA,gilmar mendes,ouro
+fake_1415,PESSOA,mendes,ouro
+fake_1617,ORGANIZACAO,globo,ouro
+fake_1617,ORGANIZACAO,instituto lula,ouro
+fake_1617,PESSOA,lula,ouro
+fake_1617,PESSOA,marisa,ouro
+fake_1617,PESSOA,roberto kalil filho,ouro
+fake_1619,DATA,1989,ouro
+fake_1619,DATA,1995,ouro
+fake_1619,DATA,1999,ouro
+fake_1619,DATA,2002,ouro
+fake_1619,DATA,julho de 1995,ouro
+fake_1619,DATA,outubro de 1995,ouro
+fake_1619,LOCAL,aeroporto internacional de brasília,ouro
+fake_1619,LOCAL,aeroporto santos dumont,ouro
+fake_1619,LOCAL,buritis,ouro
+fake_1619,LOCAL,fazenda córrego da ponte,ouro
+fake_1619,LOCAL,mg,ouro
+fake_1619,LOCAL,palácio do planalto,ouro
+fake_1619,LOCAL,rio de janeiro,ouro
+fake_1619,ORGANIZACAO,agropecuária jauense,ouro
+fake_1619,ORGANIZACAO,anac,ouro
+fake_1619,ORGANIZACAO,camargo corrêa,ouro
+fake_1619,ORGANIZACAO,dac,ouro
+fake_1619,ORGANIZACAO,departamento de aviação civil,ouro
+fake_1619,ORGANIZACAO,revista istoé,ouro
+fake_1619,ORGANIZACAO,tercon,ouro
+fake_1619,ORGANIZACAO,tercon – terraplanagem e construções,ouro
+fake_1619,PESSOA,beatriz cardoso,ouro
+fake_1619,PESSOA,celito kock,ouro
+fake_1619,PESSOA,fernando henrique,ouro
+fake_1619,PESSOA,fhc,ouro
+fake_1619,PESSOA,getúlio vaz,ouro
+fake_1619,PESSOA,heráclito fortes,ouro
+fake_1619,PESSOA,jovelino carvalho mineiro filho,ouro
+fake_1619,PESSOA,jovelino mineiro,ouro
+fake_1619,PESSOA,luciana cardoso,ouro
+fake_1619,PESSOA,luiz francisco souza,ouro
+fake_1619,PESSOA,marcelo ávidos,ouro
+fake_1619,PESSOA,paulo henrique cardoso,ouro
+fake_1619,PESSOA,sérgio motta,ouro
+fake_1619,PESSOA,ávidos,ouro
+fake_1706,LOCAL,mg,ouro
+fake_1706,LOCAL,região metropolitana de belo horizonte,ouro
+fake_1706,LOCAL,ribeirão das neves,ouro
+fake_1706,ORGANIZACAO,comissão de direitos humanos,ouro
+fake_1706,ORGANIZACAO,oab,ouro
+fake_1706,ORGANIZACAO,penitenciária dutra ladeira,ouro
+fake_1706,ORGANIZACAO,pm,ouro
+fake_1782,ORGANIZACAO,diário do brasil,ouro
+fake_1782,ORGANIZACAO,pt,ouro
+fake_1782,ORGANIZACAO,redebrasil.net,ouro
+fake_1782,PESSOA,dilma,ouro
+fake_1782,PESSOA,lula,ouro
+fake_1852,DATA,quinta-feira 08 de dezembro,ouro
+fake_1852,LOCAL,itapetininga,ouro
+fake_1852,LOCAL,sp,ouro
+fake_1852,ORGANIZACAO,polícia civil,ouro
+fake_1852,ORGANIZACAO,uipa,ouro
+fake_1852,ORGANIZACAO,união internacional protetora dos animais,ouro
+fake_1854,LOCAL,brasil,ouro
+fake_1854,ORGANIZACAO,diário do brasil,ouro
+fake_1854,PESSOA,eduardo cunha,ouro
+fake_1854,PESSOA,jackson freitas,ouro
+fake_1854,PESSOA,nelson rodrigues,ouro
+fake_1854,PESSOA,renan,ouro
+fake_1874,DATA,22 de outubro,ouro
+fake_1874,LOCAL,brasil,ouro
+fake_1874,ORGANIZACAO,congresso,ouro
+fake_1874,ORGANIZACAO,diário do brasil,ouro
+fake_1874,ORGANIZACAO,folha,ouro
+fake_1874,ORGANIZACAO,folha de sp,ouro
+fake_1874,ORGANIZACAO,pmdb,ouro
+fake_1874,ORGANIZACAO,psdb,ouro
+fake_1874,ORGANIZACAO,pt,ouro
+fake_1874,PESSOA,fernando henrique cardoso,ouro
+fake_1874,PESSOA,fhc,ouro
+fake_1874,PESSOA,michel temer,ouro
+fake_1917,LOCAL,brasília,ouro
+fake_1917,ORGANIZACAO,câmara,ouro
+fake_1917,ORGANIZACAO,dem,ouro
+fake_1917,ORGANIZACAO,mp,ouro
+fake_1917,ORGANIZACAO,odebrecht,ouro
+fake_1917,ORGANIZACAO,pt,ouro
+fake_1917,ORGANIZACAO,uol,ouro
+fake_1917,PESSOA,josias de souza,ouro
+fake_1917,PESSOA,maia,ouro
+fake_1917,PESSOA,michel temer,ouro
+fake_1917,PESSOA,rodrigo maia,ouro
+fake_1917,PESSOA,temer,ouro
+fake_1917,PESSOA,vicente cândido,ouro
+fake_1929,ORGANIZACAO,antagonista,ouro
+fake_1929,ORGANIZACAO,câmara dos deputados,ouro
+fake_1929,ORGANIZACAO,pp,ouro
+fake_1929,PESSOA,batochio,ouro
+fake_1929,PESSOA,claúdio dantas,ouro
+fake_1929,PESSOA,corrêa,ouro
+fake_1929,PESSOA,josé roberto batochio,ouro
+fake_1929,PESSOA,lula,ouro
+fake_1929,PESSOA,paulinho,ouro
+fake_1929,PESSOA,paulo roberto costa,ouro
+fake_1929,PESSOA,pedro corrêa,ouro
+fake_1929,PESSOA,sérgio moro,ouro
+fake_2137,ORGANIZACAO,antagonista,ouro
+fake_2137,ORGANIZACAO,stf,ouro
+fake_2137,ORGANIZACAO,transpetro,ouro
+fake_2137,PESSOA,aníbal gomes,ouro
+fake_2137,PESSOA,machado,ouro
+fake_2137,PESSOA,renan,ouro
+fake_2137,PESSOA,renan calheiros,ouro
+fake_2137,PESSOA,sérgio machado,ouro
+fake_2137,PESSOA,teori zavascki,ouro
+fake_2182,LOCAL,rj,ouro
+fake_2182,ORGANIZACAO,câmara,ouro
+fake_2182,ORGANIZACAO,eduardo cunha,ouro
+fake_2182,PESSOA,clarissa,ouro
+fake_2182,PESSOA,clarissa garotinho,ouro
+fake_2182,PESSOA,cunha,ouro
+fake_2182,PESSOA,lúcio funaro,ouro
+fake_2182,PESSOA,timóteo,ouro
+fake_2219,ORGANIZACAO,mesa do senado,ouro
+fake_2219,ORGANIZACAO,pmdb,ouro
+fake_2219,ORGANIZACAO,pt,ouro
+fake_2219,ORGANIZACAO,uol,ouro
+fake_2219,PESSOA,cardozo,ouro
+fake_2219,PESSOA,dilma,ouro
+fake_2219,PESSOA,josias de souza,ouro
+fake_2219,PESSOA,josé eduardo cardozo,ouro
+fake_2219,PESSOA,joão costa,ouro
+fake_2219,PESSOA,joão costa ribeiro filho,ouro
+fake_2219,PESSOA,kátia,ouro
+fake_2219,PESSOA,kátia abreu,ouro
+fake_2219,PESSOA,lewandowski,ouro
+fake_2219,PESSOA,renan calheiros,ouro
+fake_2219,PESSOA,ribeiro filho,ouro
+fake_2219,PESSOA,vicentinho alves,ouro
+fake_2224,LOCAL,aeroporto afonso pena,ouro
+fake_2224,LOCAL,curitiba,ouro
+fake_2224,ORGANIZACAO,pcdob,ouro
+fake_2224,ORGANIZACAO,polícia federal,ouro
+fake_2224,PESSOA,vanessa,ouro
+fake_2224,PESSOA,vanessa graziotin,ouro
+fake_2229,DATA,segunda-feira,ouro
+fake_2229,ORGANIZACAO,instagram,ouro
+fake_2229,ORGANIZACAO,msn,ouro
+fake_2229,ORGANIZACAO,rede globo,ouro
+fake_2229,PESSOA,bonner,ouro
+fake_2229,PESSOA,fátima,ouro
+fake_2229,PESSOA,fátima bernardes,ouro
+fake_2229,PESSOA,rafael,ouro
+fake_2229,PESSOA,rafael tupinambá,ouro
+fake_2229,PESSOA,william,ouro
+fake_2283,ORGANIZACAO,pt,ouro
+fake_2283,ORGANIZACAO,stf,ouro
+fake_2283,PESSOA,dilma,ouro
+fake_2283,PESSOA,gleisi,ouro
+fake_2283,PESSOA,gleisi hoffmann,ouro
+fake_2283,PESSOA,lewandowski,ouro
+fake_2283,PESSOA,michel temer,ouro
+fake_2283,PESSOA,renan calheiros,ouro
+fake_240,ORGANIZACAO,stf,ouro
+fake_240,PESSOA,filipe pace,ouro
+fake_240,PESSOA,lula,ouro
+fake_240,PESSOA,sergio moro,ouro
+fake_240,PESSOA,sérgio moro,ouro
+fake_249,LOCAL,são paulo,ouro
+fake_249,ORGANIZACAO,corinthians,ouro
+fake_249,ORGANIZACAO,marcondes & mautoni,ouro
+fake_249,ORGANIZACAO,odebrecht,ouro
+fake_249,ORGANIZACAO,polícia federal,ouro
+fake_249,ORGANIZACAO,receita federal,ouro
+fake_249,PESSOA,luis inácio lula da silva,ouro
+fake_249,PESSOA,luiz inácio lula da silva,ouro
+fake_249,PESSOA,lula,ouro
+fake_249,PESSOA,luís cláudio,ouro
+fake_249,PESSOA,luís cláudio da silva,ouro
+fake_249,PESSOA,mauro marcondes,ouro
+fake_2510,PESSOA,cunha,ouro
+fake_2510,PESSOA,luana,ouro
+fake_2510,PESSOA,luana piovani,ouro
+fake_2601,DATA,2010,ouro
+fake_2601,DATA,23,ouro
+fake_2601,LOCAL,curitiba,ouro
+fake_2601,LOCAL,distrito federal,ouro
+fake_2601,LOCAL,paraná,ouro
+fake_2601,LOCAL,pernambuco,ouro
+fake_2601,LOCAL,rio grande do sul,ouro
+fake_2601,LOCAL,são paulo,ouro
+fake_2601,LOCAL,água verde,ouro
+fake_2601,ORGANIZACAO,petrobras,ouro
+fake_2601,ORGANIZACAO,pf,ouro
+fake_2601,ORGANIZACAO,pt,ouro
+fake_2601,PESSOA,dilma,ouro
+fake_2601,PESSOA,gleisi,ouro
+fake_2601,PESSOA,gleisi hoffmann,ouro
+fake_2601,PESSOA,lula,ouro
+fake_2601,PESSOA,paulo,ouro
+fake_2601,PESSOA,paulo bernardo,ouro
+fake_2606,LOCAL,são bernardo do campo,ouro
+fake_2606,ORGANIZACAO,pf,ouro
+fake_2606,PESSOA,lula,ouro
+fake_2606,PESSOA,marisa,ouro
+fake_2606,PESSOA,neusa gomes,ouro
+fake_2718,LOCAL,são bernardo,ouro
+fake_2718,ORGANIZACAO,câmara dos deputados,ouro
+fake_2718,ORGANIZACAO,suframa,ouro
+fake_2718,PESSOA,michel temer,ouro
+fake_273,LOCAL,são paulo,ouro
+fake_273,PESSOA,dilma,ouro
+fake_273,PESSOA,temer,ouro
+fake_2779,ORGANIZACAO,folha,ouro
+fake_2779,ORGANIZACAO,folha de sp,ouro
+fake_2779,ORGANIZACAO,stf,ouro
+fake_2779,ORGANIZACAO,transpetro,ouro
+fake_2779,PESSOA,cerveró,ouro
+fake_2779,PESSOA,delcídio,ouro
+fake_2779,PESSOA,delcídio amaral,ouro
+fake_2779,PESSOA,dilma,ouro
+fake_2779,PESSOA,jucá,ouro
+fake_2779,PESSOA,michel temer,ouro
+fake_2779,PESSOA,romero jucá,ouro
+fake_2779,PESSOA,rubens valente,ouro
+fake_2779,PESSOA,sergio machado,ouro
+fake_2779,PESSOA,temer,ouro
+fake_2819,LOCAL,curitiba,ouro
+fake_2819,LOCAL,paraná,ouro
+fake_2819,LOCAL,presídio de pinhais,ouro
+fake_2819,LOCAL,são paulo,ouro
+fake_2819,ORGANIZACAO,diário oficial,ouro
+fake_2819,ORGANIZACAO,diário oficial da união,ouro
+fake_2819,ORGANIZACAO,pf,ouro
+fake_2819,PESSOA,dilma rousseff,ouro
+fake_2819,PESSOA,lula,ouro
+fake_2819,PESSOA,moro,ouro
+fake_2819,PESSOA,sérgio moro,ouro
+fake_2882,LOCAL,ceará,ouro
+fake_2882,ORGANIZACAO,pgr,ouro
+fake_2882,ORGANIZACAO,stf,ouro
+fake_2882,PESSOA,cid,ouro
+fake_2882,PESSOA,cid gomes,ouro
+fake_2882,PESSOA,ciro gomes,ouro
+fake_2882,PESSOA,janot,ouro
+fake_2882,PESSOA,moro,ouro
+fake_2882,PESSOA,rodrigo janot,ouro
+fake_2882,PESSOA,teori,ouro
+fake_2882,PESSOA,teori zavascki,ouro
+fake_2898,ORGANIZACAO,globo,ouro
+fake_2898,ORGANIZACAO,ministério público,ouro
+fake_2898,ORGANIZACAO,stf,ouro
+fake_2898,ORGANIZACAO,supremo tribunal federal,ouro
+fake_2898,PESSOA,dilma,ouro
+fake_2898,PESSOA,lula,ouro
+fake_2898,PESSOA,noblat,ouro
+fake_2898,PESSOA,ricardo noblat,ouro
+fake_2898,PESSOA,sérgio moro,ouro
+fake_2932,LOCAL,avenida paulista,ouro
+fake_2932,LOCAL,paulista,ouro
+fake_2932,ORGANIZACAO,78ªdp,ouro
+fake_2932,ORGANIZACAO,fiesp,ouro
+fake_2932,ORGANIZACAO,pt,ouro
+fake_2932,PESSOA,jair bolsonaro,ouro
+fake_2947,ORGANIZACAO,casa civil,ouro
+fake_2947,ORGANIZACAO,hotel royal tulip,ouro
+fake_2947,ORGANIZACAO,partido dos trabalhadores,ouro
+fake_2947,ORGANIZACAO,pt,ouro
+fake_2947,PESSOA,dilma,ouro
+fake_2947,PESSOA,lula,ouro
+fake_2947,PESSOA,moro,ouro
+fake_2947,PESSOA,sérgio moro,ouro
+fake_2948,ORGANIZACAO,república do paraná,ouro
+fake_2948,PESSOA,dilma,ouro
+fake_2948,PESSOA,dilma rousseff,ouro
+fake_2948,PESSOA,jaques wagner,ouro
+fake_2948,PESSOA,lula,ouro
+fake_3056,PESSOA,dilma,ouro
+fake_3056,PESSOA,lula,ouro
+fake_3056,PESSOA,molina,ouro
+fake_3056,PESSOA,ricardo molina,ouro
+fake_3056,PESSOA,sergio moro,ouro
+fake_3085,ORGANIZACAO,pt,ouro
+fake_3085,ORGANIZACAO,unicamp,ouro
+fake_3085,ORGANIZACAO,uol,ouro
+fake_3085,PESSOA,dilma,ouro
+fake_3085,PESSOA,lula,ouro
+fake_3085,PESSOA,roberto,ouro
+fake_3085,PESSOA,roberto romano,ouro
+fake_3118,DATA,08,ouro
+fake_3118,LOCAL,go,ouro
+fake_3118,LOCAL,goiânia,ouro
+fake_3118,LOCAL,venezuela,ouro
+fake_3118,ORGANIZACAO,dem,ouro
+fake_3118,ORGANIZACAO,globo,ouro
+fake_3118,ORGANIZACAO,grupo jaime câmara,ouro
+fake_3118,ORGANIZACAO,manifestantes do movimento sem-terra,ouro
+fake_3118,ORGANIZACAO,mst,ouro
+fake_3118,ORGANIZACAO,polícia federal,ouro
+fake_3118,ORGANIZACAO,rede globo,ouro
+fake_3118,ORGANIZACAO,tv globo,ouro
+fake_3118,PESSOA,caiado,ouro
+fake_3118,PESSOA,lula,ouro
+fake_3118,PESSOA,ronaldo caiado,ouro
+fake_3295,DATA,sábado,ouro
+fake_3295,LOCAL,brasil,ouro
+fake_3295,LOCAL,pernambuco,ouro
+fake_3295,LOCAL,recife,ouro
+fake_3295,ORGANIZACAO,revista veja,ouro
+fake_3295,PESSOA,dilma,ouro
+fake_3295,PESSOA,dilma rousseff,ouro
+fake_3295,PESSOA,reinaldo,ouro
+fake_3295,PESSOA,reinaldo azevedo,ouro
+fake_3303,PESSOA,janaína paschoal,ouro
+fake_3357,ORGANIZACAO,petrobras,ouro
+fake_3357,ORGANIZACAO,pt,ouro
+fake_3458,DATA,2006,ouro
+fake_3458,ORGANIZACAO,banco shahin,ouro
+fake_3458,ORGANIZACAO,petrobras,ouro
+fake_3458,ORGANIZACAO,samsung,ouro
+fake_3458,ORGANIZACAO,schahin,ouro
+fake_3458,ORGANIZACAO,veja,ouro
+fake_3458,PESSOA,diogo mainardi,ouro
+fake_3458,PESSOA,júlio camargo,ouro
+fake_3458,PESSOA,lula,ouro
+fake_3458,PESSOA,nestor cerveró,ouro
+fake_3495,PESSOA,delcídio amaral,ouro
+fake_385,DATA,2018,ouro
+fake_385,ORGANIZACAO,stf,ouro
+fake_385,PESSOA,cármem lúcia,ouro
+fake_436,DATA,2001,ouro
+fake_436,DATA,2002,ouro
+fake_436,LOCAL,brasil,ouro
+fake_436,LOCAL,cingapura,ouro
+fake_436,ORGANIZACAO,departamento de justiça dos eua,ouro
+fake_436,ORGANIZACAO,folha,ouro
+fake_436,ORGANIZACAO,folha de s. paulo,ouro
+fake_436,ORGANIZACAO,keppel fels,ouro
+fake_436,ORGANIZACAO,petrobras,ouro
+fake_436,ORGANIZACAO,petrobrás,ouro
+fake_436,PESSOA,fernando henrique cardoso,ouro
+fake_436,PESSOA,fhc,ouro
+fake_470,ORGANIZACAO,harvard,ouro
+fake_470,ORGANIZACAO,neuroscience,ouro
+fake_470,ORGANIZACAO,oxford academic,ouro
+fake_470,PESSOA,matthew,ouro
+fake_470,PESSOA,matthew sachs,ouro
+fake_470,PESSOA,sachs,ouro
+fake_490,ORGANIZACAO,igreja da inglaterra,ouro
+fake_490,PESSOA,george,ouro
+fake_643,DATA,04/10/2017,ouro
+fake_643,LOCAL,coreia,ouro
+fake_643,LOCAL,coreia do norte,ouro
+fake_643,LOCAL,coréia do norte,ouro
+fake_643,LOCAL,eua,ouro
+fake_643,LOCAL,japão,ouro
+fake_643,LOCAL,pyongyang,ouro
+fake_643,ORGANIZACAO,agência de inteligência da defesa,ouro
+fake_643,ORGANIZACAO,ic,ouro
+fake_643,ORGANIZACAO,intelligence community,ouro
+fake_643,ORGANIZACAO,ministério da defesa do japão,ouro
+fake_643,PESSOA,kim jong un,ouro
+fake_643,PESSOA,kin jong-un,ouro
+fake_771,DATA,2010,ouro
+fake_771,ORGANIZACAO,defesa civil,ouro
+fake_771,PESSOA,geddel,ouro
+fake_771,PESSOA,lula,ouro
+fake_890,DATA,2008,ouro
+fake_890,ORGANIZACAO,the intercept,ouro
+fake_890,PESSOA,dilma,ouro
+fake_890,PESSOA,glenn greenwald,ouro
+fake_890,PESSOA,greenwald,ouro
+fake_890,PESSOA,lula,ouro
+true_1002,DATA,sexta-feira (22,ouro
+true_1002,ORGANIZACAO,globo,ouro
+true_1002,ORGANIZACAO,globonews,ouro
+true_1002,PESSOA,heraldo pereira,ouro
+true_1002,PESSOA,renata lo prete,ouro
+true_1002,PESSOA,william waack,ouro
+true_1192,DATA,quarta-feira (24,ouro
+true_1192,LOCAL,brasília,ouro
+true_1192,LOCAL,esplanada,ouro
+true_1192,LOCAL,esplanada dos ministérios,ouro
+true_1192,ORGANIZACAO,central única dos trabalhadores,ouro
+true_1192,ORGANIZACAO,congresso,ouro
+true_1192,ORGANIZACAO,cut,ouro
+true_1192,ORGANIZACAO,ministério da agricultura,ouro
+true_1192,ORGANIZACAO,pm,ouro
+true_1192,PESSOA,michel temer,ouro
+true_1192,PESSOA,temer,ouro
+true_1202,ORGANIZACAO,abi,ouro
+true_1202,ORGANIZACAO,ministério público,ouro
+true_1202,ORGANIZACAO,ministério público federal,ouro
+true_1202,ORGANIZACAO,pgr,ouro
+true_1202,ORGANIZACAO,stf,ouro
+true_1202,ORGANIZACAO,supremo tribunal federal,ouro
+true_1202,PESSOA,andrea neves,ouro
+true_1202,PESSOA,aécio,ouro
+true_1202,PESSOA,aécio neves,ouro
+true_1202,PESSOA,fachin,ouro
+true_1202,PESSOA,luiz edson fachin,ouro
+true_1202,PESSOA,reinaldo azevedo,ouro
+true_1228,DATA,18,ouro
+true_1228,DATA,24 de março,ouro
+true_1228,DATA,quinta-feira,ouro
+true_1228,LOCAL,são paulo,ouro
+true_1228,ORGANIZACAO,grupo jbs,ouro
+true_1228,ORGANIZACAO,psdb,ouro
+true_1228,ORGANIZACAO,stf,ouro
+true_1228,ORGANIZACAO,supremo tribunal federal,ouro
+true_1228,PESSOA,aécio neves,ouro
+true_1228,PESSOA,edson fachin,ouro
+true_1228,PESSOA,joesley batista,ouro
+true_1228,PESSOA,michel temer,ouro
+true_1400,DATA,2007,ouro
+true_1400,DATA,quinta-feira (20,ouro
+true_1400,LOCAL,amazonas,ouro
+true_1400,ORGANIZACAO,cbn,ouro
+true_1400,ORGANIZACAO,pt,ouro
+true_1400,ORGANIZACAO,rede,ouro
+true_1400,ORGANIZACAO,rádio cbn amazônia,ouro
+true_1400,PESSOA,luiz castro,ouro
+true_1400,PESSOA,marina,ouro
+true_1400,PESSOA,marina silva,ouro
+true_1415,ORGANIZACAO,pmdb,ouro
+true_1415,ORGANIZACAO,supremo,ouro
+true_1415,ORGANIZACAO,supremo tribunal federal,ouro
+true_1415,PESSOA,adriana ancelmo,ouro
+true_1415,PESSOA,gilmar mendes,ouro
+true_1415,PESSOA,sérgio cabral,ouro
+true_1617,DATA,quarta-feira (25,ouro
+true_1617,DATA,quinta-feira (26,ouro
+true_1617,DATA,terça-feira (23,ouro
+true_1617,LOCAL,são paulo,ouro
+true_1617,ORGANIZACAO,hospital sírio-libanês,ouro
+true_1617,PESSOA,luiz inácio lula da silva,ouro
+true_1617,PESSOA,marisa,ouro
+true_1617,PESSOA,marisa letícia,ouro
+true_1617,PESSOA,marisa letícia lula da silva,ouro
+true_1619,DATA,14,ouro
+true_1619,DATA,14 de julho de 2015,ouro
+true_1619,DATA,15 de julho de 2010,ouro
+true_1619,DATA,2016,ouro
+true_1619,DATA,terça-feira,ouro
+true_1619,LOCAL,rio,ouro
+true_1619,ORGANIZACAO,alerj,ouro
+true_1619,ORGANIZACAO,assembleia legislativa do rio de janeiro,ouro
+true_1619,ORGANIZACAO,empresas de transportes de passageiros do estado do rio de janeiro,ouro
+true_1619,ORGANIZACAO,fetranspor,ouro
+true_1619,ORGANIZACAO,ministério público federal,ouro
+true_1619,ORGANIZACAO,nccc,ouro
+true_1619,ORGANIZACAO,núcleo criminal de combate à corrupção,ouro
+true_1619,ORGANIZACAO,pf,ouro
+true_1619,ORGANIZACAO,pmdb,ouro
+true_1619,ORGANIZACAO,polícia federal,ouro
+true_1619,ORGANIZACAO,procuradoria,ouro
+true_1619,ORGANIZACAO,procuradoria da república,ouro
+true_1619,ORGANIZACAO,transexpert,ouro
+true_1619,ORGANIZACAO,tribunal regional federal,ouro
+true_1619,PESSOA,abel gomes,ouro
+true_1619,PESSOA,edson albertassi,ouro
+true_1619,PESSOA,felipe picciani,ouro
+true_1619,PESSOA,jorge luiz,ouro
+true_1619,PESSOA,jorge luiz ribeiro,ouro
+true_1619,PESSOA,jorge picciani,ouro
+true_1619,PESSOA,josé carlos lavoura,ouro
+true_1619,PESSOA,leonardo picciani,ouro
+true_1619,PESSOA,manoel,ouro
+true_1619,PESSOA,michel temer,ouro
+true_1619,PESSOA,paulo melo,ouro
+true_1619,PESSOA,puccinelli,ouro
+true_1619,PESSOA,sérgio cabral,ouro
+true_1619,PESSOA,álvaro novis,ouro
+true_1706,LOCAL,baixada fluminense,ouro
+true_1706,LOCAL,japeri,ouro
+true_1706,LOCAL,rio,ouro
+true_1706,LOCAL,rj,ouro
+true_1706,PESSOA,alexander mota,ouro
+true_1706,PESSOA,milton dias moreira,ouro
+true_1782,DATA,2016,ouro
+true_1782,DATA,segunda-feira (14,ouro
+true_1782,LOCAL,marrakesh,ouro
+true_1782,ORGANIZACAO,organização meteorológica mundial,ouro
+true_1852,DATA,2014,ouro
+true_1852,DATA,"terça-feira, 16 de maio de 2017",ouro
+true_1852,ORGANIZACAO,congresso,ouro
+true_1852,ORGANIZACAO,psdb,ouro
+true_1852,ORGANIZACAO,tribunal superior eleitoral,ouro
+true_1852,ORGANIZACAO,tse,ouro
+true_1852,PESSOA,dilma,ouro
+true_1852,PESSOA,gilmar mendes,ouro
+true_1852,PESSOA,michel temer,ouro
+true_1852,PESSOA,temer,ouro
+true_1852,PESSOA,trump,ouro
+true_1854,DATA,março,ouro
+true_1854,LOCAL,são paulo,ouro
+true_1854,ORGANIZACAO,senado,ouro
+true_1854,ORGANIZACAO,stf,ouro
+true_1854,ORGANIZACAO,supremo,ouro
+true_1854,PESSOA,alexandre de moraes,ouro
+true_1854,PESSOA,gilmar mendes,ouro
+true_1854,PESSOA,luiz roberto barroso,ouro
+true_1874,DATA,"terça-feira, 27",ouro
+true_1874,LOCAL,amazônia,ouro
+true_1874,LOCAL,amazônia legal,ouro
+true_1874,LOCAL,são paulo,ouro
+true_1874,ORGANIZACAO,agência brasileira de exportações,ouro
+true_1874,ORGANIZACAO,congresso,ouro
+true_1874,ORGANIZACAO,pl,ouro
+true_1874,ORGANIZACAO,psdb,ouro
+true_1874,ORGANIZACAO,união da indústria de cana de açúcar,ouro
+true_1874,ORGANIZACAO,única,ouro
+true_1874,PESSOA,flexa ribeiro,ouro
+true_1917,DATA,29 de junho de 2017,ouro
+true_1917,DATA,quarta-feira 28 de junho de 2017,ouro
+true_1917,DATA,quinta-feira,ouro
+true_1917,ORGANIZACAO,ccj,ouro
+true_1917,ORGANIZACAO,comissão de constituição e justiça,ouro
+true_1917,ORGANIZACAO,câmara,ouro
+true_1917,ORGANIZACAO,eldorado,ouro
+true_1917,ORGANIZACAO,pmdb,ouro
+true_1917,ORGANIZACAO,psdb,ouro
+true_1917,ORGANIZACAO,rádio eldorado,ouro
+true_1917,ORGANIZACAO,senado,ouro
+true_1917,PESSOA,guilherme de brito,ouro
+true_1917,PESSOA,nelson cavaquinho,ouro
+true_1917,PESSOA,rogério marinho,ouro
+true_1917,PESSOA,romero jucá,ouro
+true_1917,PESSOA,temer,ouro
+true_1929,LOCAL,guarujá,ouro
+true_1929,ORGANIZACAO,petrobrás,ouro
+true_1929,ORGANIZACAO,pp,ouro
+true_1929,PESSOA,eduardo cunha,ouro
+true_1929,PESSOA,luiz inácio lula da silva,ouro
+true_1929,PESSOA,lula,ouro
+true_1929,PESSOA,paulo roberto costa,ouro
+true_1929,PESSOA,pedro corrêa,ouro
+true_2137,DATA,terça-feira,ouro
+true_2137,ORGANIZACAO,congresso,ouro
+true_2137,ORGANIZACAO,estado,ouro
+true_2137,ORGANIZACAO,globo,ouro
+true_2137,ORGANIZACAO,pmdb,ouro
+true_2137,ORGANIZACAO,senado,ouro
+true_2137,ORGANIZACAO,supremo tribunal federal,ouro
+true_2137,PESSOA,janot,ouro
+true_2137,PESSOA,josé sarney,ouro
+true_2137,PESSOA,renan,ouro
+true_2137,PESSOA,renan calheiros,ouro
+true_2137,PESSOA,rodrigo janot,ouro
+true_2137,PESSOA,romero jucá,ouro
+true_2137,PESSOA,sarney,ouro
+true_2137,PESSOA,temer,ouro
+true_2182,LOCAL,europa,ouro
+true_2182,PESSOA,vauvernargues,ouro
+true_2219,DATA,quinta-feira,ouro
+true_2219,DATA,sexta-feira,ouro
+true_2219,ORGANIZACAO,pt,ouro
+true_2219,ORGANIZACAO,senado,ouro
+true_2219,ORGANIZACAO,tribunal de contas da união,ouro
+true_2219,PESSOA,antônio carlos costa dávila carvalho,ouro
+true_2219,PESSOA,dilma rousseff,ouro
+true_2219,PESSOA,esther dweck,ouro
+true_2219,PESSOA,gleisi hoffmann,ouro
+true_2219,PESSOA,lewandowski,ouro
+true_2219,PESSOA,luiz gonzaga belluzzo,ouro
+true_2219,PESSOA,renan,ouro
+true_2219,PESSOA,ricardo lodi,ouro
+true_2224,DATA,sexta-feira,ouro
+true_2224,LOCAL,argentina,ouro
+true_2224,LOCAL,mendonza,ouro
+true_2224,LOCAL,sorocaba,ouro
+true_2224,LOCAL,sp,ouro
+true_2224,ORGANIZACAO,santuário de grandes primatas,ouro
+true_2229,DATA,20 de outubro,ouro
+true_2229,LOCAL,goiânia,ouro
+true_2229,ORGANIZACAO,centro de internação provisória,ouro
+true_2229,ORGANIZACAO,colégio goyases,ouro
+true_2229,PESSOA,rosângela magalhães,ouro
+true_2283,ORGANIZACAO,odebrecht,ouro
+true_2283,ORGANIZACAO,universidade de vanderbilt,ouro
+true_2283,PESSOA,alberto fujimori,ouro
+true_2283,PESSOA,arturo maldonado,ouro
+true_2283,PESSOA,fujimori,ouro
+true_2283,PESSOA,pedro pablo kuczynski,ouro
+true_2283,PESSOA,ppk,ouro
+true_240,DATA,dia 23,ouro
+true_240,DATA,dia 24,ouro
+true_240,DATA,dias 23 e 24 de janeiro,ouro
+true_240,ORGANIZACAO,trf-4,ouro
+true_240,ORGANIZACAO,tribunal,ouro
+true_240,ORGANIZACAO,tribunal regional federal da 4ª região,ouro
+true_240,PESSOA,luiz inácio lula da silva,ouro
+true_240,PESSOA,lula,ouro
+true_249,DATA,2015,ouro
+true_249,DATA,terça-feira (28,ouro
+true_249,LOCAL,brasil,ouro
+true_249,LOCAL,divinópolis,ouro
+true_249,LOCAL,mg,ouro
+true_249,ORGANIZACAO,petrobras,ouro
+true_249,ORGANIZACAO,primeira turma do supremo tribunal federal,ouro
+true_249,ORGANIZACAO,psdb,ouro
+true_249,ORGANIZACAO,stf,ouro
+true_249,PESSOA,domingos sávio,ouro
+true_249,PESSOA,fábio luis,ouro
+true_249,PESSOA,fábio luis lula da silva,ouro
+true_249,PESSOA,fábio luís,ouro
+true_249,PESSOA,luiz inácio lula da silva,ouro
+true_249,PESSOA,lula,ouro
+true_249,PESSOA,lulinha,ouro
+true_249,PESSOA,sávio,ouro
+true_2510,LOCAL,estado de são paulo,ouro
+true_2510,LOCAL,oeste paulista,ouro
+true_2510,ORGANIZACAO,g1,ouro
+true_2510,ORGANIZACAO,grupamento de radiopatrulha aérea,ouro
+true_2510,ORGANIZACAO,polícia militar,ouro
+true_2510,PESSOA,mayara,ouro
+true_2601,DATA,quarta,ouro
+true_2601,DATA,quarta (14,ouro
+true_2601,DATA,quinta,ouro
+true_2601,DATA,sexta,ouro
+true_2601,DATA,sexta-feira (16,ouro
+true_2601,LOCAL,catedral da sé,ouro
+true_2601,LOCAL,centro,ouro
+true_2601,ORGANIZACAO,arquidiocese de são paulo,ouro
+true_2601,ORGANIZACAO,corinthians,ouro
+true_2601,PESSOA,arns,ouro
+true_2601,PESSOA,lula,ouro
+true_2601,PESSOA,paulo,ouro
+true_2601,PESSOA,paulo evaristo arns,ouro
+true_2601,PESSOA,vladimir herzog,ouro
+true_2606,DATA,"sexta-feira, 26",ouro
+true_2606,LOCAL,guarujá,ouro
+true_2606,LOCAL,são paulo,ouro
+true_2606,ORGANIZACAO,pt,ouro
+true_2606,ORGANIZACAO,rádio eldorado,ouro
+true_2606,ORGANIZACAO,trf-4,ouro
+true_2606,ORGANIZACAO,tribunal regional federal da 4.ª região,ouro
+true_2606,PESSOA,luiz inácio lula da silva,ouro
+true_2606,PESSOA,luiz marinho,ouro
+true_2606,PESSOA,lula,ouro
+true_2606,PESSOA,marinho,ouro
+true_2606,PESSOA,sérgio moro,ouro
+true_2718,DATA,2017,ouro
+true_2718,DATA,2018,ouro
+true_2718,DATA,quarta-feira (30,ouro
+true_2718,DATA,terça (29,ouro
+true_2718,ORGANIZACAO,comissão mista de orçamento,ouro
+true_2718,ORGANIZACAO,congresso nacional,ouro
+true_273,LOCAL,brasil,ouro
+true_273,LOCAL,brasília,ouro
+true_273,ORGANIZACAO,organização para cooperação e desenvolvimento econômico,ouro
+true_273,PESSOA,álvaro pereira,ouro
+true_2779,DATA,5 de setembro de 2017,ouro
+true_2779,DATA,terça-feira,ouro
+true_2779,DATA,terça-feira 5 de setembro de 2017,ouro
+true_2779,LOCAL,anápolis,ouro
+true_2779,ORGANIZACAO,estadão,ouro
+true_2779,ORGANIZACAO,ministério público federal,ouro
+true_2779,ORGANIZACAO,pgr,ouro
+true_2779,ORGANIZACAO,rádio eldorado,ouro
+true_2779,ORGANIZACAO,stf,ouro
+true_2779,PESSOA,fachin,ouro
+true_2779,PESSOA,janot,ouro
+true_2779,PESSOA,joesley,ouro
+true_2779,PESSOA,joesley batista,ouro
+true_2779,PESSOA,marcelo godoy,ouro
+true_2779,PESSOA,marcelo muller,ouro
+true_2779,PESSOA,temer,ouro
+true_2819,DATA,11,ouro
+true_2819,DATA,terça-feira,ouro
+true_2819,ORGANIZACAO,stf,ouro
+true_2819,ORGANIZACAO,supremo tribunal federal,ouro
+true_2819,PESSOA,collor,ouro
+true_2819,PESSOA,dilma,ouro
+true_2819,PESSOA,edson fachin,ouro
+true_2819,PESSOA,fachin,ouro
+true_2819,PESSOA,fernando collor de melo,ouro
+true_2819,PESSOA,fhc,ouro
+true_2819,PESSOA,josé sarney,ouro
+true_2819,PESSOA,lula,ouro
+true_2819,PESSOA,odebrecht,ouro
+true_2882,LOCAL,ceará,ouro
+true_2882,LOCAL,sobral,ouro
+true_2882,ORGANIZACAO,odebrecht,ouro
+true_2882,ORGANIZACAO,petrobrás,ouro
+true_2882,ORGANIZACAO,ptd,ouro
+true_2882,ORGANIZACAO,stf,ouro
+true_2882,PESSOA,cid gomes,ouro
+true_2882,PESSOA,rodrigo janot,ouro
+true_2882,PESSOA,sergio moro,ouro
+true_2882,PESSOA,teori zavascki,ouro
+true_2898,DATA,quarta-feira,ouro
+true_2898,DATA,quarta-feira (13,ouro
+true_2898,LOCAL,paraná,ouro
+true_2898,ORGANIZACAO,13ª vara federal de curitiba,ouro
+true_2898,ORGANIZACAO,justiça federal,ouro
+true_2898,ORGANIZACAO,ministério público federal,ouro
+true_2898,ORGANIZACAO,odebrecht,ouro
+true_2898,PESSOA,antônio palocci,ouro
+true_2898,PESSOA,branislav kontic,ouro
+true_2898,PESSOA,luiz inácio lula da silva,ouro
+true_2898,PESSOA,lula,ouro
+true_2898,PESSOA,moro,ouro
+true_2898,PESSOA,sérgio moro,ouro
+true_2932,DATA,2018,ouro
+true_2932,DATA,"quinta-feira, 14 de dezembro",ouro
+true_2932,LOCAL,brasília,ouro
+true_2932,LOCAL,são paulo,ouro
+true_2932,ORGANIZACAO,congresso,ouro
+true_2932,ORGANIZACAO,câmara,ouro
+true_2932,ORGANIZACAO,senado,ouro
+true_2932,PESSOA,temer,ouro
+true_2947,DATA,2010,ouro
+true_2947,DATA,dezembro,ouro
+true_2947,DATA,"segunda-feira, 19",ouro
+true_2947,LOCAL,atibaia,ouro
+true_2947,LOCAL,sp,ouro
+true_2947,ORGANIZACAO,odebrecht,ouro
+true_2947,PESSOA,bittar,ouro
+true_2947,PESSOA,carlos rodrigues do prado,ouro
+true_2947,PESSOA,carlos rodrigues prado,ouro
+true_2947,PESSOA,frederico barbosa,ouro
+true_2947,PESSOA,lula,ouro
+true_2947,PESSOA,moro,ouro
+true_2947,PESSOA,rogério aurélio pimentel,ouro
+true_2947,PESSOA,sérgio moro,ouro
+true_2948,DATA,3 de maio,ouro
+true_2948,ORGANIZACAO,jbs,ouro
+true_2948,ORGANIZACAO,procuradoria geral da república,ouro
+true_2948,PESSOA,dilma,ouro
+true_2948,PESSOA,dilma rousseff,ouro
+true_2948,PESSOA,guido mantega,ouro
+true_2948,PESSOA,joesley,ouro
+true_2948,PESSOA,joesley batista,ouro
+true_2948,PESSOA,luiz inácio lula da silva,ouro
+true_2948,PESSOA,lula,ouro
+true_3056,ORGANIZACAO,jbs,ouro
+true_3056,ORGANIZACAO,pgr,ouro
+true_3056,ORGANIZACAO,pmdb,ouro
+true_3056,ORGANIZACAO,polícia federal,ouro
+true_3056,ORGANIZACAO,psdb,ouro
+true_3056,ORGANIZACAO,supremo tribunal federal,ouro
+true_3056,PESSOA,aécio neves,ouro
+true_3056,PESSOA,edson fachin,ouro
+true_3056,PESSOA,fachin,ouro
+true_3056,PESSOA,janot,ouro
+true_3056,PESSOA,michel temer,ouro
+true_3056,PESSOA,rodrigo janot,ouro
+true_3056,PESSOA,rodrigo rocha loures,ouro
+true_3056,PESSOA,temer,ouro
+true_3085,DATA,2016,ouro
+true_3085,DATA,dia 26 de junho,ouro
+true_3085,LOCAL,goiânia,ouro
+true_3085,ORGANIZACAO,g1,ouro
+true_3085,ORGANIZACAO,mec,ouro
+true_3085,ORGANIZACAO,ministério da educação,ouro
+true_3085,ORGANIZACAO,ufg,ouro
+true_3085,ORGANIZACAO,unb,ouro
+true_3085,ORGANIZACAO,universidade de brasília,ouro
+true_3085,ORGANIZACAO,universidade federal de goiás,ouro
+true_3085,PESSOA,adão josé peixoto,ouro
+true_3085,PESSOA,dilma,ouro
+true_3085,PESSOA,dilma rousseff,ouro
+true_3118,DATA,19 de outubro de 2017,ouro
+true_3118,DATA,dia 26,ouro
+true_3118,DATA,"quarta-feira, 18",ouro
+true_3118,DATA,quinta-feira,ouro
+true_3118,DATA,quinta-feira 19 de outubro de 2017,ouro
+true_3118,ORGANIZACAO,broadcast político,ouro
+true_3118,ORGANIZACAO,casa civil,ouro
+true_3118,ORGANIZACAO,ccj,ouro
+true_3118,ORGANIZACAO,comissão de constituição e justiça,ouro
+true_3118,ORGANIZACAO,dem,ouro
+true_3118,ORGANIZACAO,estadão,ouro
+true_3118,ORGANIZACAO,psdb,ouro
+true_3118,ORGANIZACAO,rádio eldorado,ouro
+true_3118,ORGANIZACAO,secretaria-geral da presidência,ouro
+true_3118,PESSOA,bonifácio de andrada,ouro
+true_3118,PESSOA,cunha,ouro
+true_3118,PESSOA,eliseu padilha,ouro
+true_3118,PESSOA,filipelli,ouro
+true_3118,PESSOA,funaro,ouro
+true_3118,PESSOA,geddel,ouro
+true_3118,PESSOA,janot,ouro
+true_3118,PESSOA,lúcio,ouro
+true_3118,PESSOA,maia,ouro
+true_3118,PESSOA,michel temer,ouro
+true_3118,PESSOA,moreira,ouro
+true_3118,PESSOA,moreira franco,ouro
+true_3118,PESSOA,padilha,ouro
+true_3118,PESSOA,rocha loures,ouro
+true_3118,PESSOA,rodrigo maia,ouro
+true_3118,PESSOA,temer,ouro
+true_3295,DATA,abril,ouro
+true_3295,DATA,quarta-feira (27,ouro
+true_3295,LOCAL,rio de janeiro,ouro
+true_3295,LOCAL,rj,ouro
+true_3295,LOCAL,roma,ouro
+true_3295,LOCAL,vaticano,ouro
+true_3295,ORGANIZACAO,delta construções,ouro
+true_3295,ORGANIZACAO,g1,ouro
+true_3295,ORGANIZACAO,tv globo,ouro
+true_3295,PESSOA,bretas,ouro
+true_3295,PESSOA,cabral,ouro
+true_3295,PESSOA,eike batista,ouro
+true_3295,PESSOA,fernando cavendish,ouro
+true_3295,PESSOA,ilze scamparini,ouro
+true_3295,PESSOA,marcelo bretas,ouro
+true_3295,PESSOA,sérgio cabral,ouro
+true_3295,PESSOA,sérgio cortes,ouro
+true_3303,ORGANIZACAO,hotel santa maria,ouro
+true_3303,ORGANIZACAO,prefeitura de sp,ouro
+true_3303,ORGANIZACAO,prefeitura de são paulo,ouro
+true_3357,DATA,quinta-feira (8,ouro
+true_3357,LOCAL,casa branca,ouro
+true_3357,LOCAL,estados unidos,ouro
+true_3357,LOCAL,moscou,ouro
+true_3357,ORGANIZACAO,congresso,ouro
+true_3357,ORGANIZACAO,fbi,ouro
+true_3357,ORGANIZACAO,senado,ouro
+true_3357,PESSOA,comey,ouro
+true_3357,PESSOA,flynn,ouro
+true_3357,PESSOA,james comey,ouro
+true_3357,PESSOA,trump,ouro
+true_3458,DATA,agosto de 2011,ouro
+true_3458,DATA,dezembro de 2015,ouro
+true_3458,DATA,segunda-feira (25,ouro
+true_3458,LOCAL,grande são paulo,ouro
+true_3458,LOCAL,são bernardo do campo,ouro
+true_3458,ORGANIZACAO,ministério público federal,ouro
+true_3458,ORGANIZACAO,mpf,ouro
+true_3458,ORGANIZACAO,odebrecht,ouro
+true_3458,PESSOA,glaucos da costamarques,ouro
+true_3458,PESSOA,josé carlos bumlai,ouro
+true_3458,PESSOA,luiz inácio lula da silva,ouro
+true_3458,PESSOA,lula,ouro
+true_3495,DATA,"terça-feira, 28",ouro
+true_3495,ORGANIZACAO,supremo tribunal federal,ouro
+true_385,DATA,2018,ouro
+true_385,DATA,"segunda-feira, 19",ouro
+true_385,LOCAL,brasil,ouro
+true_385,LOCAL,buenos aires,ouro
+true_385,LOCAL,paris,ouro
+true_385,ORGANIZACAO,g-20,ouro
+true_385,ORGANIZACAO,ocde,ouro
+true_385,ORGANIZACAO,organização para cooperação e desenvolvimento econômico,ouro
+true_436,LOCAL,angola,ouro
+true_436,LOCAL,brasil,ouro
+true_436,ORGANIZACAO,departamento de justiça dos eua,ouro
+true_436,ORGANIZACAO,g1,ouro
+true_436,ORGANIZACAO,odebrecht,ouro
+true_470,DATA,1986,ouro
+true_470,LOCAL,eua,ouro
+true_470,LOCAL,kansas,ouro
+true_470,PESSOA,james pennebaker,ouro
+true_470,PESSOA,pennebaker,ouro
+true_490,LOCAL,suzano,ouro
+true_490,ORGANIZACAO,paróquia santa helena,ouro
+true_643,DATA,1991,ouro
+true_643,DATA,2012,ouro
+true_643,DATA,dia 3,ouro
+true_643,LOCAL,coreia do norte,ouro
+true_643,LOCAL,coreia do sul,ouro
+true_643,LOCAL,coreias,ouro
+true_643,LOCAL,estados unidos,ouro
+true_643,LOCAL,eua,ouro
+true_643,LOCAL,norte,ouro
+true_643,ORGANIZACAO,partido coreia liberdade,ouro
+true_643,ORGANIZACAO,pew research,ouro
+true_643,PESSOA,hong joon-pyo,ouro
+true_643,PESSOA,ri,ouro
+true_643,PESSOA,ri chun-hee,ouro
+true_771,DATA,outubro,ouro
+true_771,DATA,quarta-feira (28,ouro
+true_771,LOCAL,laranjeiras do sul,ouro
+true_771,LOCAL,paraná,ouro
+true_771,LOCAL,quedas do iguaçu,ouro
+true_771,PESSOA,lula,ouro
+true_890,DATA,9 de maio de 2017,ouro
+true_890,DATA,terça-feira,ouro
+true_890,LOCAL,curitiba,ouro
+true_890,PESSOA,lula,ouro
+true_890,PESSOA,sérgio moro,ouro

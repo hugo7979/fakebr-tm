@@ -1,0 +1,32 @@
+% Anexo obrigatório (fora do limite de páginas): ferramentas, para quê, e um caso em que errou.
+\section{Declaração de utilização de assistentes de IA}\label{app:ia}
+
+\paragraph{Ferramentas e finalidade.}
+Usámos o assistente Claude (Anthropic) para: gerar a primeira versão do código do repositório
+(carregamento, divisão, pré-processamento, classificação, tópicos, extração de informação e
+\emph{notebook} do BERTimbau); propor o protocolo experimental; explicar conceitos; redigir um
+esqueleto deste artigo; e apoiar a interpretação dos resultados, sugerindo categorias para a
+análise de erros e nomes para os tópicos, que o grupo reviu e validou. A anotação manual dos 100
+documentos para a extração de informação foi feita exclusivamente pelos cinco elementos do grupo,
+sem pré-anotação automática. O assistente esclareceu dúvidas sobre as regras do guia, verificou
+o formato dos ficheiros e, nas três primeiras notícias de um dos anotadores (usadas como treino),
+indicou que tipos de entidade ainda faltavam, sem fornecer a lista de entidades. Todas as decisões foram discutidas pelo grupo, o código foi executado e
+verificado nos nossos computadores e o texto foi revisto e reescrito por nós.
+Não foram usadas outras ferramentas de inteligência artificial.
+
+\paragraph{Casos em que o assistente errou e como demos por isso.}
+\begin{enumerate}
+\item \textbf{Versão incompatível de uma biblioteca.} O \texttt{requirements.txt} inicial fixava o
+\texttt{scikit-learn} 1.5.2, que não tem pacote pré-compilado para Python 3.14 no Windows. Demos
+por isso quando um elemento do grupo tentou instalar o ambiente e a compilação falhou. A correção
+(versão 1.7.2) foi validada a confirmar que todas as tabelas davam exatamente os mesmos números.
+\item \textbf{Pressuposto errado sobre os dados.} A primeira versão do carregador assumia que a
+versão normalizada do corpus tinha exatamente os mesmos ficheiros que a versão completa; o código
+falhou em quatro ficheiros com numeração diferente.
+\item \textbf{Erros de programação apanhados por testes.} O \emph{notebook} do BERTimbau gravava os
+identificadores num formato que o \texttt{numpy} recusa ler, e o gerador de tabelas usava um nome
+de coluna (\texttt{pipe}) que coincide com um método do \texttt{pandas}. Ambos foram detetados ao
+correr o código (o \emph{notebook} foi testado de ponta a ponta com um modelo minúsculo antes de
+gastar GPU). Também um comentário acrescentado pelo assistente ao script do custo computacional
+partiu uma linha de código (\texttt{SyntaxError}), o que só detetámos ao correr o script no Windows.
+\end{enumerate}

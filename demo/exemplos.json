@@ -1,0 +1,5 @@
+{
+  "falsa": {"doc_id": "fake_2961", "porque": "falsa típica: viral (whatsapp), política opinativa, sem datas"},
+  "verdadeira": {"doc_id": "true_13", "porque": "verdadeira típica: tribunal, datas, atribuição de fontes"},
+  "falha": {"doc_id": "fake_102", "porque": "FALHA: falsa escrita em estilo jornalístico (ano, tribunal, números) -> prevista verdadeira"}
+}

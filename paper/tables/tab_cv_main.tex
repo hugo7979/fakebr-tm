@@ -1,0 +1,27 @@
+\begin{table}[t]\centering\scriptsize
+\caption{Classificação: validação cruzada com 5 folds agrupados por par, no conjunto de desenvolvimento. F1-macro média $\pm$ desvio-padrão entre folds; IC95\% por bootstrap (1\,000 reamostragens) sobre as previsões \emph{out-of-fold}; F1 por classe; tempo total da CV.}\label{tab:cv}
+\begin{tabular}{lccccr}
+\toprule
+Configuração & F1-macro & IC95\% & F1$_V$ & F1$_F$ & s \\
+\midrule
+classe maioritária & 0,333 $\pm$ 0,000 & [0,327; 0,339] & 0,667 & 0,000 & 1 \\
+só comprimento & 0,944 $\pm$ 0,005 & [0,938; 0,949] & 0,943 & 0,944 & 1 \\
+estilo (20 atributos) & 0,965 $\pm$ 0,003 & [0,960; 0,969] & 0,964 & 0,965 & 1 \\
+estilo, só proporções (6) & 0,927 $\pm$ 0,007 & [0,921; 0,934] & 0,927 & 0,928 & 1 \\
+palavras + LogReg (completo) & 0,972 $\pm$ 0,005 & [0,968; 0,976] & 0,972 & 0,972 & 50 \\
+palavras + SVM (completo) & 0,974 $\pm$ 0,006 & [0,970; 0,979] & 0,974 & 0,975 & 46 \\
+palavras + LogReg (normalizado) & 0,940 $\pm$ 0,005 & [0,933; 0,945] & 0,940 & 0,939 & 14 \\
+palavras + SVM (normalizado) & 0,943 $\pm$ 0,005 & [0,936; 0,949] & 0,943 & 0,942 & 14 \\
+caracteres + SVM (normalizado) & 0,956 $\pm$ 0,007 & [0,950; 0,961] & 0,956 & 0,955 & 49 \\
+como acaba o texto (normalizado) & 0,890 $\pm$ 0,007 & [0,882; 0,898] & 0,886 & 0,894 & 2 \\
+como acaba o texto (cortado) & 0,395 $\pm$ 0,013 & [0,462; 0,486] & 0,337 & 0,611 & 2 \\
+palavras + SVM (cortado) & 0,921 $\pm$ 0,006 & [0,914; 0,928] & 0,921 & 0,920 & 8 \\
+caracteres + SVM (cortado) & 0,934 $\pm$ 0,002 & [0,928; 0,940] & 0,934 & 0,933 & 27 \\
+BERTimbau congelado (normalizado) & 0,970 $\pm$ 0,006 & [0,966; 0,974] & 0,970 & 0,970 & 4 \\
+BERTimbau congelado (completo, 512 tok.) & 0,977 $\pm$ 0,002 & [0,973; 0,981] & 0,977 & 0,977 & 4 \\
+BERTimbau congelado (cortado) & 0,945 $\pm$ 0,007 & [0,939; 0,950] & 0,945 & 0,945 & 3 \\
+BERTimbau fine-tuned (cortado) & 0,987 $\pm$ 0,002 & [0,984; 0,990] & 0,987 & 0,987 & 713 \\
+BERTimbau fine-tuned (normalizado) & 0,993 $\pm$ 0,003 & [0,991; 0,995] & 0,993 & 0,993 & 1489 \\
+\bottomrule
+\end{tabular}\par\smallskip{\footnotesize ``Completo'': texto original; ``normalizado'': versão do corpus com os dois textos de cada par cortados ao mesmo comprimento.}
+\end{table}

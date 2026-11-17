@@ -1,0 +1,110 @@
+% Responsáveis: P2 (classificação), P3 (BERTimbau), P4 (tópicos), P5 (EI)
+\section{Resultados}\label{sec:resultados}
+
+\subsection{Classificação}
+
+\input{tables/tab_cv_main}
+
+A Tabela~\ref{tab:cv} resume a validação cruzada. O resultado central é que \textbf{o comprimento,
+sozinho, obtém F1-macro de 0,944}. No texto completo, o melhor modelo (TF-IDF de palavras com SVM,
+0,975) ganha apenas três pontos a esta \emph{baseline}. Quando se usa o texto normalizado, o TF-IDF
+de palavras desce para 0,943, ao nível do comprimento, enquanto o TF-IDF de caracteres mantém 0,956,
+com intervalo de confiança que não se sobrepõe ao da \emph{baseline}. As diferenças entre regressão
+logística e SVM são pequenas (até 0,3 pontos) e dentro da incerteza.
+
+O BERTimbau obtém os valores mais altos: 0,970 congelado e 0,993 com \emph{fine-tuning}, ambos no
+texto normalizado. Estes números devem ser lidos com o artefacto de truncagem em mente: um modelo
+que lê o texto por ordem sabe onde ele acaba, e só o final do texto dá 0,890. Na versão cortada,
+onde esse sinal não existe, os modelos clássicos perdem pouco (caracteres: 0,956 para 0,934),
+confirmando que o sinal de estilo é real.
+
+Sem os dois atalhos, o BERTimbau congelado desce de 0,970 para 0,945, ao nível dos modelos
+clássicos, mas o BERTimbau com \emph{fine-tuning} mantém 0,987 [0,984; 0,990], mais cinco pontos
+do que o melhor modelo clássico na mesma versão (0,934). Verificámos ainda se este valor vem de
+notícias quase repetidas em folds diferentes, que a divisão por pares não apanha: há 51 documentos
+com um vizinho de cosseno $\geq0{,}7$ noutro fold, e retirá-los não altera o F1 (0,987). O ganho do
+\emph{fine-tuning} tem um custo: 12 minutos de GPU T4 para os 5 folds e 3,6\,GB de memória,
+contra segundos em CPU para os modelos lineares. Uma parte do que o modelo aprende pode ser o estilo
+editorial do sítio que produziu a maioria das falsas (Secção~\ref{sec:etica}).
+
+\input{tables/tab_test}
+O conjunto de teste foi usado uma única vez, com todas as configurações já fixadas
+(Tabela~\ref{tab:test}). Os valores coincidem com os da validação cruzada, dentro da incerteza: só
+comprimento 0,938 (CV 0,944), caracteres no texto normalizado 0,953 (0,956), caracteres afinados no
+texto cortado 0,939 (0,939), BERTimbau congelado no texto cortado 0,940 (0,945) e BERTimbau afinado
+0,987 (0,987). O atalho do final repete-se (0,892 no normalizado, 0,404 no cortado). Não houve,
+portanto, sobreajuste ao conjunto de desenvolvimento. O BERTimbau afinado erra 19 de 1\,444 notícias
+(9 verdadeiras classificadas como falsas e 10 falsas como verdadeiras), e o seu intervalo de
+confiança [0,980; 0,992] não se sobrepõe ao do comprimento [0,926; 0,951] nem ao do melhor modelo
+clássico [0,927; 0,951]. O critério de sucesso (ii) da Secção~\ref{sec:intro} é cumprido pelo
+BERTimbau afinado, mas não pelos modelos clássicos, cujos intervalos se sobrepõem ao da
+\emph{baseline} de comprimento.
+
+\subsection{Ablation do pré-processamento}
+
+\input{tables/tab_ablation}
+
+Cada passo de normalização piora o resultado (Tabela~\ref{tab:ablation}): passar de texto
+original com bigramas (0,944) a minúsculas, sem \emph{stopwords} e com \emph{stemming} desce até
+0,928. Os bigramas ajudam sempre (1 a 1,5 pontos). Estes resultados contrariam a prática habitual
+em classificação temática e são coerentes com a hipótese de que o sinal está no estilo: palavras
+como ``pra'', ``nesta'' e ``segundo'' são \emph{stopwords} e são das mais discriminativas.
+
+\subsection{Generalização para temas não vistos}
+
+\input{tables/tab_loto}
+
+Retirar política do treino é o caso mais exigente (Tabela~\ref{tab:loto}): o TF-IDF de palavras
+desce de 0,943 para 0,888, enquanto os caracteres (0,911) e os atributos de estilo (0,920) perdem
+menos. Em ``outros'' ($n=42$) os intervalos são largos e as conclusões frágeis.
+
+\subsection{Tópicos}
+
+\begin{figure}[t]\centering
+\includegraphics[width=0.42\linewidth]{figs/topicos_coerencia.png}\hfill
+\includegraphics[width=0.55\linewidth]{figs/topicos_por_classe.png}
+\caption{Esquerda: coerência NPMI por número de tópicos (média $\pm$ dp de 3 sementes). Direita:
+peso médio de cada tópico nas falsas e nas verdadeiras.}\label{fig:topics}
+\end{figure}
+
+A coerência quase não varia entre $K=5$ e $K=30$ (Tabela~\ref{tab:k}); as diferenças são da ordem
+da variação entre sementes. Escolhemos o maior $K$ cuja coerência fica a menos de um desvio-padrão
+da melhor, por analogia com a regra de um erro-padrão~\cite{breiman1984}, o que dá $K=15$ e tópicos
+mais finos e interpretáveis. Esta regra foi aplicada depois de observar a curva, o que declaramos
+como limitação.
+
+\input{tables/tab_k}
+\input{tables/tab_topics}
+
+Dois tópicos concentram as falsas (Tabela~\ref{tab:topics}): \emph{Críticas a Lula e ao PT}
+(T10), com peso 5,6 vezes maior nas falsas e 93\% de falsas entre os documentos onde domina, e
+\emph{Histórias familiares e redes sociais} (T14). Os documentos mais representativos de T10 têm
+marcas opinativas e sensacionalistas (``CRIME!'', ``roubalheira''). Do lado das verdadeiras estão as
+\emph{Decisões judiciais} (T8), \emph{Saúde e estatísticas} (T6) e \emph{Acidentes e quotidiano}
+(T0). Nem todos os tópicos têm um tema único: \emph{Conspirações e temas gerais} (T1) junta teorias da
+conspiração a textos genéricos sobre o Brasil e o mundo. Ainda assim, o tópico dominante está mais
+associado ao tema do corpus (NMI 0,104) do que à veracidade (0,047), e uma regressão logística sobre
+as 15 proporções de tópicos obtém apenas 0,747 de F1-macro [0,736; 0,758].
+
+\subsection{Extração de informação}
+
+\input{tables/tab_ie_eval}
+\input{tables/tab_ie_density}
+
+No ouro (Tabela~\ref{tab:ieeval}), o extrator tem F1 global de 0,681 (precisão 0,634, revocação
+0,735), abaixo da concordância entre anotadores (0,875). As pessoas são o tipo mais fácil (0,837) e as
+datas ficam em 0,739. Os locais têm revocação alta (0,938) mas precisão muito baixa (0,377), e as
+organizações o inverso (revocação 0,409). A causa é a mesma: o modelo etiqueta instituições como
+locais. Das previsões erradas de LOCAL, 103 são organizações no ouro, com destaque para ``STF''
+(15 vezes), ``Supremo Tribunal Federal'', ``Congresso'', ``PF'' e ``Ministério Público Federal''.
+Ignorando o tipo, o F1 sobe para 0,818: o extrator encontra as entidades, mas erra a sua classe.
+
+Este erro tem consequências na análise. Aplicado a todo o dev (Tabela~\ref{tab:iedens}), o extrator
+sugere que as verdadeiras têm mais datas (1,28 vs.\ 0,43 por cem palavras) e mais locais (3,28 vs.\
+2,43), e as falsas mais pessoas e mais expressões de atribuição (0,75 vs.\ 0,50). Com a anotação
+humana dos 50 pares (Tabela~\ref{tab:iegold}), só a diferença nas \textbf{datas} se confirma, e
+até se acentua: 1,24 vs.\ 0,23, cerca de cinco vezes mais nas verdadeiras ($p<10^{-4}$). A
+diferença nos locais (1,02 vs.\ 0,69) deixa de ser significativa ($p=0{,}067$): era em grande parte
+o efeito de as verdadeiras citarem mais instituições, que o extrator tomava por locais.
+
+\input{tables/tab_ie_gold}

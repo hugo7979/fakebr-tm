@@ -1,0 +1,20 @@
+% Resumo: 150 a 250 palavras (enunciado). Rever no fim, com os números do TESTE.
+\begin{abstract}
+Um projeto de verificação de factos precisa de priorizar notícias suspeitas sem as ler uma a uma.
+Estudamos que características linguísticas distinguem notícias falsas de verdadeiras em português
+e se um detetor generaliza para temas não vistos, usando o corpus Fake.Br (7\,200 notícias
+emparelhadas por assunto). Construímos um pipeline completo com divisão de teste agrupada por par,
+para evitar fugas de informação, e três tarefas: classificação, modelação de tópicos e extração de
+entidades. Mostramos que o corpus tem um atalho forte: um classificador que usa apenas o comprimento
+do texto obtém F1-macro de 0,944 em validação cruzada, perto dos 0,975 do melhor modelo TF-IDF.
+Descobrimos ainda que a versão normalizada do corpus cria um segundo atalho: as notícias
+verdadeiras acabam quase sempre a meio de uma frase, e o último carácter basta para 0,890. Numa versão
+sem os dois atalhos, os n-gramas de caracteres obtêm 0,939 e o BERTimbau afinado 0,987 no teste, e a remoção
+de \emph{stopwords} e o \emph{stemming} pioram os resultados, o que indica que o sinal está no
+estilo e não no vocabulário temático. Os tópicos LDA estão mais associados
+ao tema (NMI 0,104) do que à veracidade (NMI 0,047), e, segundo 100 notícias anotadas manualmente, as verdadeiras
+contêm cerca de cinco vezes mais datas. Os modelos de estilo perdem menos desempenho em temas não vistos
+do que os de palavras. Discutimos o viés de fonte do corpus (93\% das notícias falsas vêm de um
+único sítio), as implicações éticas e um conjunto de recomendações para a organização.
+\keywords{Notícias falsas \and Português \and Estilometria \and Modelação de tópicos \and Extração de informação}
+\end{abstract}

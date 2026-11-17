@@ -1,0 +1,45 @@
+[
+  {
+    "nome": "TF-IDF palavras + SVM (cortado, afinado: pipeline=raw, min_df=2, C=1)",
+    "feat": {
+      "kind": "word",
+      "text_col": "text_cut",
+      "pipeline": "raw",
+      "ngram": [
+        1,
+        2
+      ],
+      "min_df": 2
+    },
+    "model": "svm",
+    "C": 1
+  },
+  {
+    "nome": "TF-IDF caracteres + SVM (cortado, afinado: n-gramas=(1, 4), min_df=3, C=0.3)",
+    "feat": {
+      "kind": "char",
+      "text_col": "text_cut",
+      "char_ngram": [
+        1,
+        4
+      ],
+      "min_df": 3
+    },
+    "model": "svm",
+    "C": 0.3
+  },
+  {
+    "nome": "TF-IDF caracteres + LogReg (cortado, afinado: n-gramas=(2, 5), min_df=3, C=10)",
+    "feat": {
+      "kind": "char",
+      "text_col": "text_cut",
+      "char_ngram": [
+        2,
+        5
+      ],
+      "min_df": 3
+    },
+    "model": "logreg",
+    "C": 10
+  }
+]

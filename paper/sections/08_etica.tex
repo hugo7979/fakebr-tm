@@ -1,0 +1,60 @@
+% Responsável: P1 (base legal verificada em 17/11/2026; rever a redação)
+\section{Considerações éticas e limitações}\label{sec:etica}
+
+\paragraph{Dados pessoais (RGPD).}
+As notícias identificam pessoas reais, sobretudo figuras públicas, e associam-nas a partidos e
+posições políticas. Dados que revelem opiniões políticas são uma categoria especial cujo tratamento
+o RGPD proíbe em regra (art.~9.º, n.º~1)~\cite{rgpd2016}. Duas exceções do n.º~2 cobrem o nosso uso:
+a alínea~e), para dados manifestamente tornados públicos pelo titular, como as declarações públicas
+de políticos, e a alínea~j), para fins de investigação científica, com as garantias do art.~89.º.
+Algumas notícias mencionam também pessoas privadas (vítimas, familiares, uma criança), e várias
+notícias falsas fazem acusações difamatórias. Medidas adotadas: não redistribuímos os textos (o
+código descarrega-os da fonte); não construímos perfis de pessoas; no artigo citamos apenas excertos
+curtos e, quando possível, descrevemos os casos sem nomes. Os modelos guardam vocabulário, incluindo
+nomes próprios, pelo que um sistema em produção deveria minimizar esses atributos e fazer uma
+avaliação de impacto sobre a proteção de dados antes de ser usado.
+
+\paragraph{Licença.}
+O repositório do corpus não tem ficheiro de licença; os autores pedem apenas a citação dos artigos
+de origem. Usamo-lo para investigação académica, sem redistribuir os dados.
+
+\paragraph{Enviesamentos.}
+(1)~\emph{Político}: 58\% do corpus é política, e o tópico mais associado às notícias falsas é dominado
+por ataques a figuras de um só partido (\emph{Críticas a Lula e ao PT}, T10). Um modelo pode aprender
+a associar o vocabulário de um quadrante político à falsidade e penalizar notícias verdadeiras sobre
+esses temas, como sugerem os falsos positivos da categoria \emph{Tema típico da outra classe}.
+(2)~\emph{De fonte}: 93\% das falsas vêm de um único sítio e quase todas as verdadeiras de três grupos
+de comunicação; parte do ``estilo'' aprendido pode ser o estilo editorial desses sítios, como
+Potthast et~al.~\cite{potthast2018} alertam. A análise de erros mostra o reverso: notícias reais
+copiadas por sítios de desinformação ficam rotuladas como falsas. (3)~\emph{Temporal e linguístico}:
+as notícias são de 2016--2018 e em português do Brasil; o vocabulário político muda, e o desempenho
+em notícias portuguesas não foi avaliado.
+
+\paragraph{Riscos de utilização indevida.}
+Usado como juiz automático, e não como apoio à triagem, o sistema poderia levar à remoção de conteúdo
+legítimo (falsos positivos), por exemplo artigos de opinião verdadeiros, que são o erro mais comum do
+BERTimbau, ou dar uma falsa sensação de segurança (falsos negativos). Quem produz desinformação pode
+imitar o estilo jornalístico, incluindo datas e fontes, para escapar à deteção: é exatamente o que
+acontece nos 12 falsos negativos analisados. Por isso, a decisão final deve caber sempre a um
+verificador humano.
+
+\paragraph{Nível de risco no Regulamento da IA.}
+O Regulamento (UE) 2024/1689~\cite{aiact2024}, alterado pelo Regulamento (UE)
+2026/1744~\cite{omnibus2026}, classifica como sistemas de risco elevado os usos do Anexo~III:
+biometria, infraestruturas críticas, educação, emprego, serviços essenciais, aplicação da lei,
+migração, justiça e processos democráticos. O Anexo~III não inclui a verificação de factos, a
+moderação de conteúdos nem a deteção de desinformação; o ponto mais próximo, 8.b), refere sistemas
+destinados a influenciar o resultado de eleições ou o comportamento dos eleitores, o que não é o caso
+de uma ferramenta interna que ordena notícias para verificação humana. O sistema também não gera
+conteúdos, pelo que as obrigações de transparência do art.~50.º não se aplicam. Segundo a nossa
+leitura, trata-se portanto de um sistema de risco mínimo. A classificação deveria ser revista se o
+sistema passasse a decidir sozinho a remoção de conteúdos ou fosse usado em contexto eleitoral; nesse
+caso, a remoção por plataformas em linha está também sujeita ao Regulamento dos Serviços
+Digitais~\cite{dsa2022}. Esta análise não substitui um parecer jurídico.
+
+\paragraph{Limitações.}
+O corpus é de um só país, período e conjunto de fontes; tem textos quase vazios e alguns rótulos
+duvidosos; a regra de escolha de $K$ foi decidida após ver a curva de coerência; os atributos de
+estilo do corpus foram calculados sobre o texto completo; a versão cortada reduz algumas notícias a
+um título; e a avaliação da extração de informação assenta em 100 documentos sem adjudicação entre
+anotadores.

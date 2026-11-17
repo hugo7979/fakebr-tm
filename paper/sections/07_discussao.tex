@@ -1,0 +1,59 @@
+% Responsáveis: P4 (análise de falhas) + todos (conclusões acionáveis) + P2/P3 (custo)
+\section{Discussão}\label{sec:discussao}
+
+\subsection{Análise de falhas}
+Como o BERTimbau afinado erra apenas 19 notícias do teste, analisámos todos esses erros e
+completámos a amostra com 21 erros do melhor modelo clássico (caracteres com SVM afinado), num total
+de 40 (20 de cada tipo). Nove notícias foram mal classificadas pelos dois modelos.
+A Tabela~\ref{tab:errors} mostra as categorias. Os falsos negativos (12) são todos notícias
+\emph{falsas com estilo jornalístico}: datas, cargos entre parênteses, instituições e fontes citadas,
+como a notícia falsa sobre o depoimento de Lula à Polícia Federal (E10). Os falsos positivos
+dividem-se entre notícias verdadeiras \emph{com tom de opinião ou citações} (8), como uma reportagem
+sobre terraplanistas que começa só com as palavras deles (E02), e notícias verdadeiras sobre
+\emph{temas típicos das falsas} (7), como polémicas de celebridades ou Lula e a Lava Jato (E03, E08).
+
+Os dois modelos erram de forma diferente. O modelo clássico falha sobretudo por pistas
+superficiais: o tema (6 de 21) e o estilo jornalístico imitado (8 de 21). O BERTimbau, que capta
+melhor o tom, falha sobretudo em textos verdadeiros de opinião ou análise (5 dos 10 erros só
+seus), que associa às notícias falsas. Entre os 9 erros comuns, 3 parecem \emph{erros de rótulo
+no corpus}: notícias reais copiadas por sítios de desinformação, algumas ainda com a assinatura da
+agência ou do jornal de origem (``agências/R7'', ``O Tempo''). No total, 5 dos 40 erros têm
+rótulo duvidoso, o que sugere que parte do ``erro'' restante do BERTimbau é ruído do próprio corpus,
+rotulado pelo sítio de origem e não pela veracidade de cada notícia. Por fim, 4 erros vêm de textos
+quase vazios (9 a 20 palavras no corpus), sem informação suficiente para decidir.
+\todo{P4: rever este comentário (categorias de E10--E40 sugeridas pelo assistente)}
+
+\input{tables/tab_errors}
+
+\subsection{Resposta à pergunta da organização}
+Os três tipos de análise apontam na mesma direção: no Fake.Br, o que distingue as notícias falsas
+é \emph{como} são escritas (frases curtas, registo informal, erros, ausência de datas
+concretos), e não \emph{de que} falam. Daqui retiramos três conclusões acionáveis:
+\begin{enumerate}
+\item \textbf{Não confiar em métricas que o comprimento explica.} Qualquer avaliação de um detetor
+deve incluir a \emph{baseline} de comprimento; no Fake.Br ela atinge 0,944.
+\item \textbf{Usar a ausência de datas como sinal de triagem.} As verdadeiras têm cerca de cinco
+vezes mais datas concretas, confirmado com anotação humana. Notícias sem nenhuma data devem subir na
+fila de verificação. É um sinal simples, explicável ao verificador e menos dependente do tema; um
+extrator de entidades genérico não basta para os outros tipos, porque confunde instituições com locais.
+\item \textbf{Usar o BERTimbau afinado como detetor principal e os n-gramas de caracteres como
+alternativa barata.} O primeiro é o mais exato mesmo sem atalhos (0,987); o segundo corre em CPU,
+generaliza melhor do que as palavras para temas novos e explica-se com os atributos mais pesados.
+Em ambos os casos, reavaliar periodicamente, porque o desempenho em temas não vistos cai até 5,5 pontos.
+\end{enumerate}
+As três conclusões mantêm-se no teste (Tabela~\ref{tab:test}).
+
+\subsection{Custo computacional}
+A Tabela~\ref{tab:cost} resume o custo dos modelos finais, medido com o mesmo protocolo
+(\texttt{src/cost.py}) num computador com Windows~11, processador AMD de 16 núcleos lógicos e 15\,GB de
+RAM. Os modelos clássicos treinam em 10 a 43\,s, ocupam no máximo 3,5\,MB e classificam uma notícia
+em 1 a 11\,ms, com menos de 200\,MB de memória. O extrator de entidades (\texttt{md}) processa cada
+notícia em cerca de 36\,ms; o modelo \texttt{lg} tem mais 577\,MB do que o \texttt{md} para um
+ganho de 1,6 pontos de F1 (Secção~\ref{sec:metodo}). O BERTimbau precisa de GPU: no Colab gratuito
+(T4), o \emph{fine-tuning} com 5 folds demorou 12 minutos com 3,6\,GB de memória, e o treino final
+mais a previsão das 1\,444 notícias de teste 167\,s; o modelo ocupa cerca de 436\,MB. Os cinco
+pontos de F1 que o BERTimbau ganha aos modelos clássicos custam, portanto, uma GPU e um modelo cerca
+de cem vezes maior. O pipeline não usa modelos de linguagem nem serviços externos pagos (0 tokens,
+0 euros); o único recurso externo foi a GPU gratuita do Colab.
+
+\input{tables/tab_cost}

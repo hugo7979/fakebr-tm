@@ -1,0 +1,37 @@
+% Responsável: P1 (revisão final: todos)
+\section{Introdução}\label{sec:intro}
+
+\paragraph{O problema da organização.}
+Uma equipa de verificação de factos recebe diariamente mais notícias do que consegue verificar.
+Precisa de uma ferramenta que \emph{ordene} as notícias por suspeição, para que os verificadores
+humanos comecem pelas mais prováveis de serem falsas. A ferramenta não decide o que é falso: apoia
+a triagem. Esta distinção condiciona a escolha de métricas (o custo de um falso negativo e de um
+falso positivo) e as considerações éticas (Secção~\ref{sec:etica}).
+
+\paragraph{Pergunta de investigação.}
+\emph{Que características linguísticas distinguem as notícias falsas das verdadeiras num corpus real
+em português, e um detetor treinado com elas mantém o desempenho quando (a) se neutraliza o
+comprimento dos textos e (b) é aplicado a temas que não viu no treino?}
+
+\paragraph{Critério de sucesso (fixado antes de usar o teste).}
+A pergunta considera-se respondida se: (i) identificarmos atributos com diferenças entre classes
+estatisticamente significativas e interpretáveis; (ii) um modelo baseado no conteúdo superar a
+\emph{baseline} que usa apenas o comprimento, com intervalos de confiança a 95\% não sobrepostos;
+e (iii) quantificarmos a queda de desempenho em temas não vistos face ao desempenho no mesmo tema.
+
+\paragraph{Contribuições.}
+\begin{enumerate}
+\item Um protocolo de avaliação para o Fake.Br sem fugas de informação: divisão agrupada por par de
+notícias e por textos repetidos entre pares (Secção~\ref{sec:config}).
+\item A evidência de que o comprimento, sozinho, explica a maior parte do desempenho reportado em
+textos completos, e uma comparação de representações quando esse atalho é removido.
+\item Uma análise convergente com três tarefas (classificação, tópicos e extração de entidades) que
+aponta o \emph{estilo} e a \emph{ancoragem factual} (datas, locais) como os sinais robustos, e não o tema.
+\item Um repositório que reproduz a tabela principal com um único comando: \repo.
+\end{enumerate}
+
+O resto do artigo está organizado assim: a Secção~\ref{sec:rel} discute o trabalho relacionado; a
+\ref{sec:dados} caracteriza o corpus; as Secções~\ref{sec:metodo} e~\ref{sec:config} descrevem o
+método e a configuração experimental; a \ref{sec:resultados} apresenta os resultados, discutidos na
+\ref{sec:discussao}; a \ref{sec:etica} trata as questões éticas e as limitações, e a
+\ref{sec:conclusao} conclui.

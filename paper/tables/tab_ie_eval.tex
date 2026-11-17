@@ -1,0 +1,19 @@
+\begin{table}[t]\centering\scriptsize
+\caption{Extração de informação: avaliação no ouro anotado manualmente.}\label{tab:ieeval}
+\begin{tabular}{llccccr}
+\toprule
+Correspondência & Tipo & P & R & F1 & IC95\% & $n$ ouro \\
+\midrule
+estrita & PESSOA & 0,776 & 0,909 & 0,837 & [0,806; 0,865] & 396 \\
+estrita & ORGANIZACAO & 0,681 & 0,409 & 0,511 & [0,457; 0,562] & 303 \\
+estrita & LOCAL & 0,377 & 0,938 & 0,537 & [0,464; 0,603] & 130 \\
+estrita & DATA & 0,716 & 0,765 & 0,739 & [0,650; 0,821] & 102 \\
+estrita & TODOS (micro) & 0,634 & 0,735 & 0,681 & [0,653; 0,710] & 931 \\
+relaxada & PESSOA & 0,841 & 0,965 & 0,898 & [0,874; 0,920] & 396 \\
+relaxada & ORGANIZACAO & 0,725 & 0,429 & 0,539 & [0,485; 0,588] & 303 \\
+relaxada & LOCAL & 0,410 & 0,954 & 0,574 & [0,498; 0,639] & 130 \\
+relaxada & DATA & 0,881 & 0,922 & 0,901 & [0,852; 0,944] & 102 \\
+relaxada & TODOS (micro) & 0,696 & 0,784 & 0,737 & [0,711; 0,762] & 931 \\
+\bottomrule
+\end{tabular}\par\smallskip{\footnotesize Concordância entre anotadores (F1, 20 docs): 0,875 estrita, 0,931 relaxada.}
+\end{table}

@@ -1,0 +1,14 @@
+\begin{table}[t]\centering\small
+\caption{Densidade de entidades por 100 palavras (dev, texto normalizado, \texttt{pt\_core\_news\_md} + regras para datas). Teste de Wilcoxon emparelhado por par ($n=2\,878$).}\label{tab:iedens}
+\begin{tabular}{lcccc}
+\toprule
+Medida & Falsas & Verdadeiras & Mediana F$-$V & $p$ \\
+\midrule
+Pessoas & 3,99 & 3,33 & 0,48 & $<10^{-4}$ \\
+Organizações & 1,42 & 1,57 & 0,00 & 0,0001 \\
+Locais & 2,43 & 3,28 & -0,72 & $<10^{-4}$ \\
+Datas & 0,43 & 1,28 & -0,73 & $<10^{-4}$ \\
+Expressões de atribuição & 0,75 & 0,50 & 0,00 & $<10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

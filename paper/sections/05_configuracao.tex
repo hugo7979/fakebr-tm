@@ -1,0 +1,40 @@
+% Responsável: P2
+\section{Configuração experimental}\label{sec:config}
+
+\paragraph{Divisão desenvolvimento/teste.}
+Antes de qualquer modelo, separámos 20\% dos dados para teste. A unidade de divisão é o
+\emph{grupo}: o par de notícias, juntando os pares que partilham um texto ou uma ligação
+(18 grupos com mais de um par). Usamos \texttt{StratifiedGroupKFold} (semente 42), estratificando
+pelo tema. Resultam 5\,756 documentos de desenvolvimento e 1\,444 de teste, com zero grupos
+partilhados. Sem este agrupamento, a notícia verdadeira de um par poderia ficar no treino e a
+falsa no teste, e o modelo aproveitaria o assunto conhecido~\cite{kapoor2023}. A divisão está
+guardada em \texttt{data/split.json} e é igual para todos os modelos.
+
+\paragraph{Validação cruzada e métricas.}
+Todas as escolhas (representação, hiperparâmetros, número de tópicos $K$ e passos de pré-processamento) foram tomadas com
+validação cruzada de 5 folds, também agrupada, no desenvolvimento. Reportamos F1-macro (média e desvio-padrão entre folds), F1 por classe e o intervalo de confiança
+a 95\% calculado com 1\,000 reamostragens \emph{bootstrap} das previsões \emph{out-of-fold}.
+O teste é usado uma única vez, no fim,
+com as configurações fixadas, e aí reportamos também a matriz de confusão.
+
+\paragraph{Generalização por tema.}
+Num protocolo \emph{leave-one-topic-out} dentro do desenvolvimento, treinamos sem um dos quatro
+temas e avaliamos nesse tema.
+
+\paragraph{Hiperparâmetros.}
+Regressão logística com $C=10$; SVM linear com $C=1$; TF-IDF com $\mathit{min\_df}=2$ (palavras)
+e 3 (caracteres), até 200\,000 e 300\,000 atributos; LDA com 30 iterações em lote.
+Estes valores servem para comparar representações na Tabela~\ref{tab:cv}. Afinámos depois, por CV no
+dev e na versão cortada, os três modelos clássicos mais fortes (39 configurações, Tabela~\ref{tab:tuning}):
+em caso de empate (diferença $<0{,}001$) escolhemos o $C$ menor, isto é, o modelo mais regularizado.
+Os ganhos são pequenos (até 0,6 pontos): caracteres com SVM passam de 0,934 para 0,939 com n-gramas de
+1 a 4 e $C=0{,}3$, e palavras com SVM de 0,921 para 0,927 sem conversão para minúsculas, o que confirma
+a \emph{ablation}. Os valores de CV das configurações escolhidas são ligeiramente otimistas, por terem
+servido para escolher; o teste dá a estimativa sem viés.
+
+\input{tables/tab_tuning}
+
+\paragraph{Ambiente e reprodutibilidade.}
+Python 3.13 (testado também em 3.14 no Windows), versões fixadas em \texttt{requirements.txt},
+semente 42 em todo o código. O comando \texttt{python run\_all.py} reproduz todas as tabelas;
+o BERTimbau corre num \emph{notebook} no Google Colab (GPU T4) com a mesma divisão e os mesmos folds.

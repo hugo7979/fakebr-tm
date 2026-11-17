@@ -1,0 +1,14 @@
+{
+  "embeddings_bertimbau_cut_s": 33.55208086967468,
+  "final_treino_dev+teste_s": 167.43881511688232,
+  "final_gpu_mem_pico_GB": 3.579974144,
+  "modelo": "neuralmind/bert-base-portuguese-cased",
+  "gpu": "Tesla T4",
+  "max_len_emb": 512,
+  "max_len_ft": 384,
+  "epocas": 3,
+  "batch": 16,
+  "lr": 2e-05,
+  "ft_col": "text_cut",
+  "smoke": false
+}
