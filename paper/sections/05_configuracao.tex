@@ -37,4 +37,6 @@ servido para escolher; o teste dá a estimativa sem viés.
 \paragraph{Ambiente e reprodutibilidade.}
 Python 3.13 (testado também em 3.14 no Windows), versões fixadas em \texttt{requirements.txt},
 semente 42 em todo o código. O comando \texttt{python run\_all.py} reproduz todas as tabelas;
-o BERTimbau corre num \emph{notebook} no Google Colab (GPU T4) com a mesma divisão e os mesmos folds.
+o BERTimbau corre num \emph{notebook} no Google Colab (GPU T4) com a mesma divisão e os mesmos folds. Verificámos a reprodutibilidade clonando o repositório
+público numa máquina limpa e correndo esse comando: todas as tabelas de resultados coincidem até
+à última casa decimal, à exceção dos tempos de execução.
