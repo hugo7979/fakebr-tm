@@ -39,6 +39,10 @@ FIG = RES / "figs"
 K_GRID = [5, 10, 15, 20, 30]
 SEEDS = [42, 7, 2026]
 TOPN = 10
+# O LDA do scikit-learn divide os documentos em tantos blocos quantos os processos (n_jobs), e o
+# resultado depende dessa divisão. Com n_jobs=-1 dependeria do número de núcleos de cada PC;
+# fixamos 2 (o valor com que os resultados do artigo foram obtidos) para serem iguais em qualquer máquina.
+N_JOBS = 2
 
 
 def identity(x):
@@ -55,7 +59,7 @@ def vectorizer():
 
 def fit_lda(X, k, seed):
     return LatentDirichletAllocation(n_components=k, learning_method="batch", max_iter=30,
-                                     random_state=seed, n_jobs=-1).fit(X)
+                                     random_state=seed, n_jobs=N_JOBS).fit(X)
 
 
 def npmi_coherence(model, Xbin, topn=TOPN):
