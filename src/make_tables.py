@@ -41,7 +41,9 @@ def pending(name, caption, label, what):
 """)
 
 
-def table(name, caption, label, cols, header, rows, note=None, size=r"\small"):
+def table(name, caption, label, cols, header, rows, note=None, size=r"\small", sep=None):
+    if sep:  # mais espaço entre colunas (números com separador de milhares)
+        size += rf"\setlength{{\tabcolsep}}{{{sep}}}"
     body = "\n".join(" & ".join(r) + r" \\" for r in rows)
     foot = rf"\par\smallskip{{\footnotesize {note}}}" if note else ""
     write(name, rf"""\begin{{table}}[t]\centering{size}
@@ -72,21 +74,21 @@ def corpus():
                        "maiusculas_mediana") else 1
         if k == "erros_ortograficos_media_pct":
             d = 2
-        f = (lambda x: f"{x:,.0f}".replace(",", " ")) if d == 0 else (lambda x, d=d: n(x, d))
+        f = (lambda x: f"{x:,.0f}".replace(",", r"\,")) if d == 0 else (lambda x, d=d: n(x, d))
         rows.append([v, f(s.loc[k, "verdadeira"]), f(s.loc[k, "falsa"])])
     table("tab_corpus", "Estatísticas descritivas do conjunto de desenvolvimento (2\\,878 pares).",
           "tab:corpus", "lrr", "& Verdadeiras & Falsas", rows,
-          note="Metadados de estilo calculados pelos autores do corpus sobre o texto completo.")
+          note="Metadados de estilo calculados pelos autores do corpus sobre o texto completo.", sep="10pt")
 
 
 def vocab():
     v = pd.read_csv(RES / "vocab_by_pipeline.csv")
     names = {"raw": "Tokens originais", "lower": "+ minúsculas", "lower+stop": "+ remoção de stopwords",
              "lower+stop+rslp": "+ stemming RSLP"}
-    rows = [[names[r.pipeline], f"{r.tokens:,}".replace(",", " "), f"{r.vocabulario:,}".replace(",", " "),
-             f"{r.hapax:,}".replace(",", " "), n(r._5, 1)] for r in v.itertuples()]
+    rows = [[names[r.pipeline], f"{r.tokens:,}".replace(",", r"\,"), f"{r.vocabulario:,}".replace(",", r"\,"),
+             f"{r.hapax:,}".replace(",", r"\,"), n(r._5, 1)] for r in v.itertuples()]
     table("tab_vocab", "Efeito de cada passo de pré-processamento no vocabulário (dev, texto completo).",
-          "tab:vocab", "lrrrr", "Pipeline & Tokens & Vocabulário & Hapax & Redução (\\%)", rows)
+          "tab:vocab", "lrrrr", "Pipeline & Tokens & Vocabulário & Hapax & Redução (\\%)", rows, sep="10pt")
 
 
 def short(name):
