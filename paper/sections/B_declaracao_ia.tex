@@ -26,4 +26,9 @@ de coluna (\texttt{pipe}) que coincide com um método do \texttt{pandas}. Ambos 
 correr o código (o \emph{notebook} foi testado de ponta a ponta com um modelo minúsculo antes de
 gastar GPU). Também um comentário acrescentado pelo assistente ao script do custo computacional
 partiu uma linha de código (\texttt{SyntaxError}), o que só detetámos ao correr o script no Windows.
+\item \textbf{Resultados dependentes do computador.} O código do LDA usava todos os núcleos do
+processador (\texttt{n\_jobs=-1}); como o \texttt{scikit-learn} divide os documentos por núcleo,
+os tópicos e o $K$ escolhido mudavam de PC para PC. Demos por isso quando um elemento do grupo
+reproduziu o trabalho noutro computador e obteve $K=20$. Fixámos o número de processos e
+confirmámos que os resultados passaram a ser iguais em qualquer máquina.
 \end{enumerate}
