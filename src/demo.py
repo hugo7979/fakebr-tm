@@ -38,7 +38,7 @@ def char_params():
     """Usa a afinação de src/tune.py, se existir; senão, os valores por defeito do projeto."""
     f = RES / "best_params.json"
     if f.exists():
-        for b in json.loads(f.read_text()):
+        for b in json.loads(f.read_text(encoding="utf-8")):
             if b["feat"]["kind"] == "char" and b["model"] == "logreg":
                 return tuple(b["feat"]["char_ngram"]), b["feat"]["min_df"], b["C"]
     return (2, 5), 3, 10
@@ -46,7 +46,7 @@ def char_params():
 
 def held_out():
     """Os exemplos da demo ficam FORA do treino, para a previsão ser honesta (o modelo nunca os viu)."""
-    return {e["doc_id"] for e in json.loads(EXEMPLOS.read_text()).values()} if EXEMPLOS.exists() else set()
+    return {e["doc_id"] for e in json.loads(EXEMPLOS.read_text(encoding="utf-8")).values()} if EXEMPLOS.exists() else set()
 
 
 def get_classifier(dev):
@@ -137,7 +137,7 @@ def show(text, dev):
 
 def read_input(a):
     if a.exemplo:
-        ex = json.loads(EXEMPLOS.read_text())[a.exemplo]
+        ex = json.loads(EXEMPLOS.read_text(encoding="utf-8"))[a.exemplo]
         doc = load().set_index("doc_id").loc[ex["doc_id"]]
         print(f"Exemplo '{a.exemplo}': {ex['doc_id']} (classe real: {'falsa' if doc.label else 'verdadeira'})"
               f" — {ex['porque']}")

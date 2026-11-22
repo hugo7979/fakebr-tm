@@ -207,9 +207,9 @@ def ie():
             g = g[g.tipo == "TODOS (micro)"].set_index("correspondencia").f1
             txt = (f"Concordância entre anotadores (F1, 20 docs): {n(g.get('estrita'))} estrita, "
                    f"{n(g.get('relaxada'))} relaxada.")
-            t = (TAB / "tab_ie_eval.tex").read_text()
+            t = (TAB / "tab_ie_eval.tex").read_text(encoding="utf-8")
             (TAB / "tab_ie_eval.tex").write_text(t.replace("\\end{tabular}", "\\end{tabular}\\par\\smallskip{\\footnotesize "
-                                                           + txt + "}"))
+                                                           + txt + "}"), encoding="utf-8")
         go = RES / "ie_ouro_falsas_vs_verdadeiras.csv"
         if go.exists():
             o = pd.read_csv(go)
@@ -263,7 +263,7 @@ def cost_table():
         return
     import json
     c = pd.read_csv(f)
-    hw = json.loads((RES / "custo_hardware.json").read_text()) if (RES / "custo_hardware.json").exists() else {}
+    hw = json.loads((RES / "custo_hardware.json").read_text(encoding="utf-8")) if (RES / "custo_hardware.json").exists() else {}
 
     def fmt(x, d):
         return "--" if pd.isna(x) else n(x, d)

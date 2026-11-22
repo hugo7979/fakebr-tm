@@ -110,7 +110,7 @@ def bert_rows():
         p = RES / f
         if not p.exists():
             continue
-        c = json.loads(p.read_text())
+        c = json.loads(p.read_text(encoding="utf-8"))
         t = c.get("finetune_cv_total_s") or c.get("final_treino_dev+teste_s")
         mem = c.get("gpu_mem_pico_GB") or c.get("final_gpu_mem_pico_GB")
         rows.append({"modelo": label, "hardware": f"GPU {c.get('gpu')}", "treino_s": t,
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     rows += bert_rows()
     out = pd.DataFrame(rows)
     out.to_csv(RES / "custo.csv", index=False)
-    (RES / "custo_hardware.json").write_text(json.dumps(hw, indent=2, ensure_ascii=False))
+    (RES / "custo_hardware.json").write_text(json.dumps(hw, indent=2, ensure_ascii=False), encoding="utf-8")
     pd.set_option("display.width", 200)
     print(out.round(2).to_string(index=False))
     print("\nNenhum modelo de linguagem nem serviço externo pago foi usado no pipeline (0 tokens, 0 €).")

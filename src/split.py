@@ -52,13 +52,13 @@ def make_split() -> dict:
         "test": sorted(test_docs),
         "groups": dict(zip(df.doc_id, df.group.astype(int))),
     }
-    SPLIT_FILE.write_text(json.dumps(split))
+    SPLIT_FILE.write_text(json.dumps(split), encoding="utf-8")
     return split
 
 
 def load_split() -> tuple[pd.DataFrame, pd.DataFrame]:
     """Devolve (dev, test). O teste só deve ser usado na avaliação final."""
-    split = json.loads(SPLIT_FILE.read_text()) if SPLIT_FILE.exists() else make_split()
+    split = json.loads(SPLIT_FILE.read_text(encoding="utf-8")) if SPLIT_FILE.exists() else make_split()
     df = load()
     df["group"] = df.doc_id.map(split["groups"])
     df["topic4"] = df.topic.map(topic_bucket)

@@ -6,7 +6,7 @@ e se um detetor generaliza para temas não vistos, usando o corpus Fake.Br (7\,2
 emparelhadas por assunto). Construímos um pipeline completo com divisão de teste agrupada por par,
 para evitar fugas de informação, e três tarefas: classificação, modelação de tópicos e extração de
 entidades. Mostramos que o corpus tem um atalho forte: um classificador que usa apenas o comprimento
-do texto obtém F1-macro de 0,944 em validação cruzada, perto dos 0,975 do melhor modelo TF-IDF.
+do texto obtém F1-macro de 0,944 em validação cruzada, perto dos 0,974 do melhor modelo TF-IDF.
 Descobrimos ainda que a versão normalizada do corpus cria um segundo atalho: as notícias
 verdadeiras acabam quase sempre a meio de uma frase, e o último carácter basta para 0,890. Numa versão
 sem os dois atalhos, os n-gramas de caracteres obtêm 0,939 e o BERTimbau afinado 0,987 no teste, e a remoção

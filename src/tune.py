@@ -71,5 +71,5 @@ if __name__ == "__main__":
                      "feat": {k: list(v) if isinstance(v, tuple) else v for k, v in chosen["feat"].items()},
                      "model": chosen["model"], "C": chosen["C"]})
         print(f"{fam:<28} melhor F1={top:.4f} -> escolhido: {describe(chosen)}")
-    best_file.write_text(json.dumps(best, indent=2, ensure_ascii=False))
+    best_file.write_text(json.dumps(best, indent=2, ensure_ascii=False), encoding="utf-8")
     pd.set_option("display.width", 200)

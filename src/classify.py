@@ -224,7 +224,7 @@ def load_tuned():
     """Configurações escolhidas por src/tune.py (CV no dev). Vazio se ainda não houve afinação."""
     import json
     f = RES / "best_params.json"
-    return json.loads(f.read_text()) if f.exists() else []
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
 
 
 def final_test(dev, test, configs):
