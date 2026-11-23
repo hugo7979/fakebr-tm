@@ -2,7 +2,7 @@
 
 Os dados em bruto NÃO são incluídos no repositório (regra do enunciado):
 este módulo clona o repositório oficial num commit fixo e constrói uma
-tabela única `data/corpus.parquet` (uma linha por notícia).
+tabela única `data/corpus.csv` (uma linha por notícia).
 """
 from __future__ import annotations
 
