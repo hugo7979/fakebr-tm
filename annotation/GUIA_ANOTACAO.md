@@ -9,7 +9,7 @@ revocação do extrator automático, como pede o enunciado (≥100 documentos an
 
 ## 1. O vosso ficheiro
 
-Cada pessoa tem um ficheiro: `anotacao_P1.xlsx` … `anotacao_P5.xlsx` (P1–P5 conforme o `PLANO.md`).
+Cada pessoa tem um ficheiro: `anotacao_P1.xlsx` … `anotacao_P5.xlsx`.
 Cada ficheiro tem 3 folhas:
 
 | Folha | Para quê |
